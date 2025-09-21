@@ -1,4 +1,4 @@
-<img width="785" height="525" alt="image" src="https://github.com/user-attachments/assets/bb1bb86f-0a56-43bc-b402-7d467872bb79" /># six_AS5048A_plus_six_stepper_control_for_PHMCV5_V1
+six_AS5048A_plus_six_stepper_control_for_PHMCV5_V1
 
 Code to sanity test if the controller board with TMC2209 motor driver and a single encoder attached are working.
 Stepper motor drives forward and backward by 500 steps each time and repeatedly. Absolute encoder takes absolute reading at the end of each direction before stepper switch direction again.
