@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jashu\OneDrive\Documents\KiCad\Projects\Rotary_Encoder_AS5048A_V8\Rotary_Encoder_AS5048A_V8.kicad_sch</source>
+    <date>27/7/2025 3:43:33 pm</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Rotary_Encoder_AS5048A_V8.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>GRM155R60J106ME15D</value>
+      <footprint>10uF_cap_GRM155R60J106ME15D:CAPC1005X65N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=eda</field>
+        <field name="Description">
+SMD capacitor X5R(EIA) with capacitance 10uF Tol.20%. Rated voltage 6.3Vdc 85C
+</field>
+        <field name="LCSC">C412251</field>
+        <field name="LCSC Part">C412251</field>
+        <field name="LCSC Part #">C412251</field>
+        <field name="MF">Murata</field>
+        <field name="MP">GRM155R60J106ME15D</field>
+        <field name="Package">1005 Murata</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1756108&amp;manufacturer=Murata&amp;part_name=GRM155R60J106ME15D&amp;search_term=grm155r60j106me15d</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="10uF_cap_GRM155R60J106ME15D" part="GRM155R60J106ME15D" description=""/>
+      <property name="MF" value="Murata"/>
+      <property name="Description" value="&#xA;SMD capacitor X5R(EIA) with capacitance 10uF Tol.20%. Rated voltage 6.3Vdc 85C&#xA;"/>
+      <property name="Package" value="1005 Murata"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=snap"/>
+      <property name="MP" value="GRM155R60J106ME15D"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1756108&amp;manufacturer=Murata&amp;part_name=GRM155R60J106ME15D&amp;search_term=grm155r60j106me15d"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=eda"/>
+      <property name="LCSC" value="C412251"/>
+      <property name="LCSC Part #" value="C412251"/>
+      <property name="LCSC Part" value="C412251"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30af9b25-0111-45a0-8920-3afaa1bc4991</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>GCM155R71C104KA55J</value>
+      <footprint>100nf_cap_GCM155R71C104KA55J:CAPC1005X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=eda</field>
+        <field name="Description">
+0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)
+</field>
+        <field name="LCSC">C2655418</field>
+        <field name="LCSC Part">C2655418</field>
+        <field name="LCSC Part #">C2655418</field>
+        <field name="MF">Murata</field>
+        <field name="MP">GCM155R71C104KA55J</field>
+        <field name="Package">1005 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search?q=GCM155R71C104KA55J&amp;ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="100nf_cap_GCM155R71C104KA55J" part="GCM155R71C104KA55J" description=""/>
+      <property name="MF" value="Murata"/>
+      <property name="Description" value="&#xA;0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)&#xA;"/>
+      <property name="Package" value="1005 Taiyo Yuden"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=snap"/>
+      <property name="MP" value="GCM155R71C104KA55J"/>
+      <property name="Purchase-URL" value="https://pricing.snapeda.com/search?q=GCM155R71C104KA55J&amp;ref=eda"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=eda"/>
+      <property name="LCSC" value="C2655418"/>
+      <property name="LCSC Part #" value="C2655418"/>
+      <property name="LCSC Part" value="C2655418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80c8e0b3-c40e-4ec2-b5f9-cd4a41abb413</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>CC0603KRX7R7BB105</value>
+      <footprint>MLCC_16V_1uF_X7R_±10%_0603_C106248:MLCC_16V_1uF_X7R_±10%_0603_C106248</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-16V_C106248.html</datasheet>
+      <fields>
+        <field name="LCSC">C106248</field>
+        <field name="LCSC Part">C106248</field>
+      </fields>
+      <libsource lib="MLCC_16V_1uF_X7R_±10%_0603_C106248" part="CC0603KRX7R7BB105" description=""/>
+      <property name="LCSC Part" value="C106248"/>
+      <property name="LCSC" value="C106248"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25eefa7d-4849-437b-91a0-1f5808cfe7b5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>CC0603KRX7R7BB105</value>
+      <footprint>MLCC_16V_1uF_X7R_±10%_0603_C106248:MLCC_16V_1uF_X7R_±10%_0603_C106248</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-16V_C106248.html</datasheet>
+      <fields>
+        <field name="LCSC">C106248</field>
+        <field name="LCSC Part">C106248</field>
+      </fields>
+      <libsource lib="MLCC_16V_1uF_X7R_±10%_0603_C106248" part="CC0603KRX7R7BB105" description=""/>
+      <property name="LCSC Part" value="C106248"/>
+      <property name="LCSC" value="C106248"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3146b938-d6e7-40c9-8cb1-691fddcc589d</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT20JFILM</value>
+      <footprint>diode_BAT20JFILM:SOD-323</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BAT20JFILM/STMicroelectronics/view-part/?ref=eda</field>
+        <field name="Description">
+Diode Schottky 23 V 1A Surface Mount SOD-323
+</field>
+        <field name="LCSC">C155590</field>
+        <field name="LCSC Part">C155590</field>
+        <field name="LCSC Part #">C155590</field>
+        <field name="MF">STMicroelectronics</field>
+        <field name="MP">BAT20JFILM</field>
+        <field name="PROD_ID">DIO-11623</field>
+        <field name="Package">SOD-323 STMicroelectronics</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search?q=BAT20JFILM&amp;ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BAT20JFILM/STMicroelectronics/view-part/?ref=snap</field>
+        <field name="VALUE">BAT20JFILM</field>
+      </fields>
+      <libsource lib="diode_BAT20JFILM" part="BAT20JFILM" description=""/>
+      <property name="MF" value="STMicroelectronics"/>
+      <property name="Description" value="&#xA;Diode Schottky 23 V 1A Surface Mount SOD-323&#xA;"/>
+      <property name="Package" value="SOD-323 STMicroelectronics"/>
+      <property name="Price" value="None"/>
+      <property name="VALUE" value="BAT20JFILM"/>
+      <property name="MP" value="BAT20JFILM"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BAT20JFILM/STMicroelectronics/view-part/?ref=snap"/>
+      <property name="PROD_ID" value="DIO-11623"/>
+      <property name="Purchase-URL" value="https://pricing.snapeda.com/search?q=BAT20JFILM&amp;ref=eda"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BAT20JFILM/STMicroelectronics/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C155590"/>
+      <property name="LCSC Part" value="C155590"/>
+      <property name="LCSC" value="C155590"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da393be2-5d6d-4a9f-ac70-25fe14ec6f2a</tstamps>
+    </comp>
+    <comp ref="FPC1">
+      <value>AFC01-S12FCA-00</value>
+      <footprint>FFC_conn_Flip type_12P_P=0.5mm_C262661:FFC_conn_Flip type_12P_P=0.5mm_C262661</footprint>
+      <datasheet>https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</datasheet>
+      <fields>
+        <field name="LCSC">C262661</field>
+        <field name="LCSC Part">C262661</field>
+      </fields>
+      <libsource lib="FFC_conn_Flip type_12P_P=0.5mm_C262661" part="AFC01-S12FCA-00" description=""/>
+      <property name="LCSC Part" value="C262661"/>
+      <property name="LCSC" value="C262661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fd73492-88ac-48bf-a721-54033e34b896</tstamps>
+    </comp>
+    <comp ref="FPC2">
+      <value>AFC01-S12FCA-00</value>
+      <footprint>FFC_conn_Flip type_12P_P=0.5mm_C262661:FFC_conn_Flip type_12P_P=0.5mm_C262661</footprint>
+      <datasheet>https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</datasheet>
+      <fields>
+        <field name="LCSC">C262661</field>
+        <field name="LCSC Part">C262661</field>
+      </fields>
+      <libsource lib="FFC_conn_Flip type_12P_P=0.5mm_C262661" part="AFC01-S12FCA-00" description=""/>
+      <property name="LCSC Part" value="C262661"/>
+      <property name="LCSC" value="C262661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5122861-3b5c-4171-a2a8-a8ab2fc9eddc</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>529040a0-a9fd-4b42-b633-8073ec442d1b</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9404724-cc6a-4a68-96d5-ea59040f886e</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cf82cef-03a9-4ce5-a1e0-92cc73e911bc</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31f067d9-6f1e-4755-b3a9-b480e31909bc</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3edd96c3-ecb2-40fa-8994-6bc024b8d724</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>398a54df-6ab6-4c09-92df-5b64a895bd6b</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffea450b-9e0e-4216-83fc-cad11adbe06b</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>533b9eeb-1fe0-4e1b-aa11-49cc5586d99c</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>Green</value>
+      <footprint>green_LED_wurth_150060GS75000_0603_C5252984:LEDC1608X80N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=eda</field>
+        <field name="DESCRIPTION">Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package</field>
+        <field name="Description">
+Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)
+</field>
+        <field name="HEIGHT">0.8mm</field>
+        <field name="LCSC">C5252984</field>
+        <field name="LCSC Part">C5252984</field>
+        <field name="MANUFACTURER_NAME">Wurth Elektronik</field>
+        <field name="MANUFACTURER_PART_NUMBER">150060GS75000</field>
+        <field name="MF">Wurth Electronics</field>
+        <field name="MOUSER_PART_NUMBER">710-150060GS75000</field>
+        <field name="MOUSER_PRICE-STOCK">https://www.mouser.com/Search/Refine.aspx?Keyword=710-150060GS75000</field>
+        <field name="MP">150060GS75000</field>
+        <field name="Package">0603 Würth Elektronik</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="green_LED_wurth_150060GS75000_0603_C5252984" part="150060GS75000" description=""/>
+      <property name="MANUFACTURER_NAME" value="Wurth Elektronik"/>
+      <property name="MF" value="Wurth Electronics"/>
+      <property name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-150060GS75000"/>
+      <property name="DESCRIPTION" value="Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"/>
+      <property name="MOUSER_PART_NUMBER" value="710-150060GS75000"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="0603 Würth Elektronik"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=eda"/>
+      <property name="HEIGHT" value="0.8mm"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=snap"/>
+      <property name="MP" value="150060GS75000"/>
+      <property name="Description" value="&#xA;Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="150060GS75000"/>
+      <property name="LCSC" value="C5252984"/>
+      <property name="LCSC Part" value="C5252984"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af2d44f8-0044-46d4-a345-6907888e5651</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>0402WGD1001TCE</value>
+      <footprint>Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754:Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0402WGD1001TCE_C407754.html</datasheet>
+      <fields>
+        <field name="LCSC">C407754</field>
+        <field name="LCSC Part">C407754</field>
+      </fields>
+      <libsource lib="Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754" part="0402WGD1001TCE" description=""/>
+      <property name="LCSC Part" value="C407754"/>
+      <property name="LCSC" value="C407754"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ede17cb5-0d01-4dca-8f39-ba51f51e10f4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>RC0402FR-0733RL</value>
+      <footprint>Resistor_62.5mW_50V_±1%_33Ω_0402_C138002:Resistor_62.5mW_50V_±1%_33Ω_0402_C138002</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R0-1_C138002.html</datasheet>
+      <fields>
+        <field name="LCSC">C138002</field>
+        <field name="LCSC Part">C138002</field>
+      </fields>
+      <libsource lib="Resistor_62.5mW_50V_±1%_33Ω_0402_C138002" part="RC0402FR-0733RL" description=""/>
+      <property name="LCSC Part" value="C138002"/>
+      <property name="LCSC" value="C138002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42ca26b-2350-4d2d-b5a8-699e5a46cfc9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490:Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html</datasheet>
+      <fields>
+        <field name="LCSC">C60490</field>
+        <field name="LCSC Part">C60490</field>
+      </fields>
+      <libsource lib="Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490" part="RC0402FR-0710KL" description=""/>
+      <property name="LCSC Part" value="C60490"/>
+      <property name="LCSC" value="C60490"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>780018b0-eef5-4438-b68b-2ffbab3fa8bc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AS5048A</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2655181</field>
+        <field name="LCSC Part">C2655181</field>
+        <field name="LCSC Part #">C2655181</field>
+      </fields>
+      <libsource lib="Sensor_Magnetic" part="AS5048A" description="Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14"/>
+      <property name="LCSC" value="C2655181"/>
+      <property name="LCSC Part #" value="C2655181"/>
+      <property name="LCSC Part" value="C2655181"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>637e01fa-7376-483d-a15e-213a821fbbe7</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLV75733PDBVR</value>
+      <footprint>LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517:LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517</footprint>
+      <datasheet>https://lcsc.com/product-detail/New-Arrivals_Texas-Instruments-Texas-Instruments-TLV75733PDBVR_C485517.html</datasheet>
+      <fields>
+        <field name="LCSC">C485517</field>
+        <field name="LCSC Part">C485517</field>
+      </fields>
+      <libsource lib="LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517" part="TLV75733PDBVR" description=""/>
+      <property name="LCSC Part" value="C485517"/>
+      <property name="LCSC" value="C485517"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Rotary_Encoder_AS5048A_V8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cf53518-3855-4a7a-a99e-5dc1afebd78a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="100nf_cap_GCM155R71C104KA55J" part="GCM155R71C104KA55J">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCM155R71C104KA55J</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="MF">Murata</field>
+        <field name="Description">
+0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)
+</field>
+        <field name="Package">1005 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=snap</field>
+        <field name="MP">GCM155R71C104KA55J</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search?q=GCM155R71C104KA55J&amp;ref=eda</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="10uF_cap_GRM155R60J106ME15D" part="GRM155R60J106ME15D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM155R60J106ME15D</field>
+        <field name="Footprint">GRM155R60J106ME15D:CAPC1005X65N</field>
+        <field name="MF">Murata</field>
+        <field name="Description">
+SMD capacitor X5R(EIA) with capacitance 10uF Tol.20%. Rated voltage 6.3Vdc 85C
+</field>
+        <field name="Package">1005 Murata</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=snap</field>
+        <field name="MP">GRM155R60J106ME15D</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1756108&amp;manufacturer=Murata&amp;part_name=GRM155R60J106ME15D&amp;search_term=grm155r60j106me15d</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GRM155R60J106ME15D/Murata+Electronics+North+America/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FFC_conn_Flip type_12P_P=0.5mm_C262661" part="AFC01-S12FCA-00">
+      <docs>https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</docs>
+      <fields>
+        <field name="Reference">FPC</field>
+        <field name="Value">AFC01-S12FCA-00</field>
+        <field name="Footprint">easyeda2kicad:FPC-SMD_AFC01-S12FCA-00</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</field>
+        <field name="LCSC Part">C262661</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517" part="TLV75733PDBVR">
+      <docs>https://lcsc.com/product-detail/New-Arrivals_Texas-Instruments-Texas-Instruments-TLV75733PDBVR_C485517.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV75733PDBVR</field>
+        <field name="Footprint">easyeda2kicad:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/New-Arrivals_Texas-Instruments-Texas-Instruments-TLV75733PDBVR_C485517.html</field>
+        <field name="LCSC Part">C485517</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="EN" type="unspecified"/>
+        <pin num="4" name="NC" type="unspecified"/>
+        <pin num="5" name="OUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLCC_16V_1uF_X7R_±10%_0603_C106248" part="CC0603KRX7R7BB105">
+      <docs>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-16V_C106248.html</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0603KRX7R7BB105</field>
+        <field name="Footprint">easyeda2kicad:C0603</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-105-10-16V_C106248.html</field>
+        <field name="LCSC Part">C106248</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754" part="0402WGD1001TCE">
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0402WGD1001TCE_C407754.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0402WGD1001TCE</field>
+        <field name="Footprint">easyeda2kicad:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0402WGD1001TCE_C407754.html</field>
+        <field name="LCSC Part">C407754</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490" part="RC0402FR-0710KL">
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-0710KL</field>
+        <field name="Footprint">easyeda2kicad:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C60490.html</field>
+        <field name="LCSC Part">C60490</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_62.5mW_50V_±1%_33Ω_0402_C138002" part="RC0402FR-0733RL">
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R0-1_C138002.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-0733RL</field>
+        <field name="Footprint">easyeda2kicad:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R0-1_C138002.html</field>
+        <field name="LCSC Part">C138002</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Magnetic" part="AS5048A">
+      <description>Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14</description>
+      <docs>https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS5048A</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CSn}" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TEST" type="passive"/>
+        <pin num="6" name="TEST" type="passive"/>
+        <pin num="7" name="TEST" type="passive"/>
+        <pin num="8" name="TEST" type="passive"/>
+        <pin num="9" name="TEST" type="passive"/>
+        <pin num="10" name="TEST" type="passive"/>
+        <pin num="11" name="VDD5V" type="power_in"/>
+        <pin num="12" name="VDD3V" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="PWM" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="diode_BAT20JFILM" part="BAT20JFILM">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT20JFILM</field>
+        <field name="Footprint">SOD-323</field>
+        <field name="MF">STMicroelectronics</field>
+        <field name="Description">
+Diode Schottky 23 V 1A Surface Mount SOD-323
+</field>
+        <field name="Package">SOD-323 STMicroelectronics</field>
+        <field name="Price">None</field>
+        <field name="VALUE">BAT20JFILM</field>
+        <field name="MP">BAT20JFILM</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BAT20JFILM/STMicroelectronics/view-part/?ref=snap</field>
+        <field name="PROD_ID">DIO-11623</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search?q=BAT20JFILM&amp;ref=eda</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BAT20JFILM/STMicroelectronics/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_LED_wurth_150060GS75000_0603_C5252984" part="150060GS75000">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060GS75000</field>
+        <field name="Footprint">150060GS75000:LEDC1608X80N</field>
+        <field name="MANUFACTURER_NAME">Wurth Elektronik</field>
+        <field name="MF">Wurth Electronics</field>
+        <field name="MOUSER_PRICE-STOCK">https://www.mouser.com/Search/Refine.aspx?Keyword=710-150060GS75000</field>
+        <field name="DESCRIPTION">Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package</field>
+        <field name="MOUSER_PART_NUMBER">710-150060GS75000</field>
+        <field name="Price">None</field>
+        <field name="Package">0603 Würth Elektronik</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=eda</field>
+        <field name="HEIGHT">0.8mm</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=snap</field>
+        <field name="MP">150060GS75000</field>
+        <field name="Description">
+Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER_PART_NUMBER">150060GS75000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="bidirectional"/>
+        <pin num="2" name="A" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="100nf_cap_GCM155R71C104KA55J">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/100nf_cap_GCM155R71C104KA55J.pretty/GCM155R71C104KA55J.kicad_sym</uri>
+    </library>
+    <library logical="10uF_cap_GRM155R60J106ME15D">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/10uF_cap_GRM155R60J106ME15D.pretty/GRM155R60J106ME15D.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="FFC_conn_Flip type_12P_P=0.5mm_C262661">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/FFC_conn_Flip type_12P_P=0.5mm_C262661.pretty/FFC_conn_Flip type_12P_P=0.5mm_C262661.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517.pretty/LDO_1A_Fixed_3.3V_out_5.5V_in_SOT-23-5_C485517.kicad_sym</uri>
+    </library>
+    <library logical="MLCC_16V_1uF_X7R_±10%_0603_C106248">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/MLCC_16V_1uF_X7R_±10%_0603_C106248.pretty/MLCC_16V_1uF_X7R_±10%_0603_C106248.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754.pretty/Resistor_62.5mW_50V_±0.5%_1kΩ_0402_C407754.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490.pretty/Resistor_62.5mW_50V_±1%_10kΩ_0402_C60490.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_62.5mW_50V_±1%_33Ω_0402_C138002">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Resistor_62.5mW_50V_±1%_33Ω_0402_C138002.pretty/Resistor_62.5mW_50V_±1%_33Ω_0402_C138002.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Magnetic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Magnetic.kicad_sym</uri>
+    </library>
+    <library logical="diode_BAT20JFILM">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/diode_BAT20JFILM.pretty/BAT20JFILM.kicad_sym</uri>
+    </library>
+    <library logical="green_LED_wurth_150060GS75000_0603_C5252984">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/green_LED_wurth_150060GS75000_0603_C5252984.pretty/150060GS75000.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="VDD5V" pintype="power_in"/>
+      <node ref="U1" pin="12" pinfunction="VDD3V" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/5V">
+      <node ref="C3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="D1" pin="C" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/5V_reg">
+      <node ref="D1" pin="A" pintype="passive"/>
+      <node ref="FPC1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="FPC2" pin="12" pinfunction="12" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/CLK">
+      <node ref="FPC1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="FPC2" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="U1" pin="2" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="5" name="/CS">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U1" pin="1" pinfunction="~{CSn}" pintype="input"/>
+    </net>
+    <net code="6" name="/CS1">
+      <node ref="FPC1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="FPC2" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="7" name="/CS2">
+      <node ref="FPC1" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="FPC2" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="/CS3">
+      <node ref="FPC1" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="FPC2" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="9" name="/CS4">
+      <node ref="FPC1" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="FPC2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="10" name="/CS5">
+      <node ref="FPC1" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="FPC2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="11" name="/CS6">
+      <node ref="FPC1" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="FPC2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="12" name="/CS7">
+      <node ref="FPC1" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="FPC2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="/MISO">
+      <node ref="FPC1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="FPC2" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="input"/>
+    </net>
+    <net code="14" name="/MOSI">
+      <node ref="FPC1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="FPC2" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="U1" pin="4" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="FPC1" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="FPC1" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="FPC1" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="FPC2" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="FPC2" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="FPC2" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="bidirectional"/>
+      <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PWM" pintype="output"/>
+    </net>
+    <net code="17" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="19" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="TEST" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="TEST" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="TEST" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="TEST" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="TEST" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="TEST" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U2-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

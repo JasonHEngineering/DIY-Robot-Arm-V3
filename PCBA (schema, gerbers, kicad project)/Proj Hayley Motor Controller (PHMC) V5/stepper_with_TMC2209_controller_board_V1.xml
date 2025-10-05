@@ -1,0 +1,3143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jashu\OneDrive\Documents\KiCad\Projects\stepper_with_TMC2209_controller_board\stepper_with_TMC2209_controller_board_V1\stepper_with_TMC2209_controller_board_V1.kicad_sch</source>
+    <date>10/8/2025 7:08:57 pm</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>stepper_with_TMC2209_controller_board_V1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>FS55X226K500EHG</value>
+      <footprint>Cap_MLCC_50V_22uF_X7R_2220_C784103:Cap_MLCC_50V_22uF_X7R_2220_C784103</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html</datasheet>
+      <fields>
+        <field name="LCSC">C784103</field>
+        <field name="LCSC Part">C784103</field>
+      </fields>
+      <libsource lib="Cap_MLCC_50V_22uF_X7R_2220_C784103" part="FS55X226K500EHG" description=""/>
+      <property name="LCSC Part" value="C784103"/>
+      <property name="LCSC" value="C784103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b384823b-f8e8-4e15-90e7-15b2e3460116</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>CC0603KRX7R9BB104</value>
+      <footprint>MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663:MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <libsource lib="MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663" part="CC0603KRX7R9BB104" description=""/>
+      <property name="LCSC Part" value="C14663"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be7c0866-d661-4e88-b4db-aff99d2a2700</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>470uF, 35V</value>
+      <footprint>470uF_35V_Alu_cap_panasonic_EEH-ZS1V471P_C403803:CAP_EEHZS1V471P</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/EEH-ZS1V471P/Panasonic+Electronic+Components/view-part/?ref=eda</field>
+        <field name="Description">
+470F 35V Aluminum - Polymer Capacitors Radial, Can - SMD 11mOhm 4000 Hrs @ 125C
+</field>
+        <field name="LCSC">C403803</field>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">16.5mm</field>
+        <field name="MF">Panasonic Electronic Components</field>
+        <field name="MP">EEH-ZS1V471P</field>
+        <field name="PARTREV">30-Sep-20</field>
+        <field name="Package">RADIAL-2 Panasonic</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3214512&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEH-ZS1V471P&amp;search_term=eehzs1v471p</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/EEH-ZS1V471P/Panasonic+Electronic+Components/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="470uF_35V_Alu_cap_panasonic_EEH-ZS1V471P_C403803" part="EEHZS1V471P" description=""/>
+      <property name="MF" value="Panasonic Electronic Components"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="16.5mm"/>
+      <property name="Package" value="RADIAL-2 Panasonic"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/EEH-ZS1V471P/Panasonic+Electronic+Components/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="30-Sep-20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/EEH-ZS1V471P/Panasonic+Electronic+Components/view-part/?ref=snap"/>
+      <property name="MP" value="EEH-ZS1V471P"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3214512&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEH-ZS1V471P&amp;search_term=eehzs1v471p"/>
+      <property name="Description" value="&#xA;470F 35V Aluminum - Polymer Capacitors Radial, Can - SMD 11mOhm 4000 Hrs @ 125C&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Panasonic"/>
+      <property name="LCSC" value="C403803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44893708-fb38-4902-bfed-1e2434eb303e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>GCM155R71C104KA55J</value>
+      <footprint>100nf_cap_GCM155R71C104KA55J:CAPC1005X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=eda</field>
+        <field name="Description">
+0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)
+</field>
+        <field name="LCSC">C2655418</field>
+        <field name="LCSC Part">C2655418</field>
+        <field name="LCSC Part #">C2655418</field>
+        <field name="MF">Murata</field>
+        <field name="MP">GCM155R71C104KA55J</field>
+        <field name="Package">1005 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search?q=GCM155R71C104KA55J&amp;ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="100nf_cap_GCM155R71C104KA55J" part="GCM155R71C104KA55J" description=""/>
+      <property name="MF" value="Murata"/>
+      <property name="Description" value="&#xA;0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)&#xA;"/>
+      <property name="Package" value="1005 Taiyo Yuden"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=snap"/>
+      <property name="MP" value="GCM155R71C104KA55J"/>
+      <property name="Purchase-URL" value="https://pricing.snapeda.com/search?q=GCM155R71C104KA55J&amp;ref=eda"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C2655418"/>
+      <property name="LCSC Part" value="C2655418"/>
+      <property name="LCSC" value="C2655418"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dab28b6-1ddc-4905-905a-21adab8973ea</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF, 16V</value>
+      <footprint>100nf_16V_MLCC_GRM155R71C104KA88D_C71629:CAPC1005X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GRM155R71C104KA88D/Murata+Electronics+North+America/view-part/?ref=eda</field>
+        <field name="Description">
+SMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 16Vdc
+</field>
+        <field name="LCSC">C71629</field>
+        <field name="MF">Murata</field>
+        <field name="MP">GRM155R71C104KA88D</field>
+        <field name="Package">1005 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4750&amp;manufacturer=Murata&amp;part_name=GRM155R71C104KA88D&amp;search_term=grm155r71c104ka88d</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GRM155R71C104KA88D/Murata+Electronics+North+America/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="100nf_16V_MLCC_GRM155R71C104KA88D_C71629" part="GRM155R71C104KA88D" description=""/>
+      <property name="MF" value="Murata"/>
+      <property name="Description" value="&#xA;SMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 16Vdc&#xA;"/>
+      <property name="Package" value="1005 Taiyo Yuden"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/GRM155R71C104KA88D/Murata+Electronics+North+America/view-part/?ref=snap"/>
+      <property name="MP" value="GRM155R71C104KA88D"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4750&amp;manufacturer=Murata&amp;part_name=GRM155R71C104KA88D&amp;search_term=grm155r71c104ka88d"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/GRM155R71C104KA88D/Murata+Electronics+North+America/view-part/?ref=eda"/>
+      <property name="LCSC" value="C71629"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a44e707e-6b11-4967-a54d-ff2a02ea309d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>FS55X226K500EHG</value>
+      <footprint>Cap_MLCC_50V_22uF_X7R_2220_C784103:Cap_MLCC_50V_22uF_X7R_2220_C784103</footprint>
+      <datasheet>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html</datasheet>
+      <fields>
+        <field name="LCSC">C784103</field>
+        <field name="LCSC Part">C784103</field>
+      </fields>
+      <libsource lib="Cap_MLCC_50V_22uF_X7R_2220_C784103" part="FS55X226K500EHG" description=""/>
+      <property name="LCSC Part" value="C784103"/>
+      <property name="LCSC" value="C784103"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fabbb1d8-25a3-476d-bbca-75f23a1b8f23</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3063ab55-99f1-4fbb-bd0e-f1f21d22c78e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b3666d6-cbdb-48df-b9f1-d3d5e63d8b5a</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>RVT1V101M0605</value>
+      <footprint>Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830:Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830</footprint>
+      <fields>
+        <field name="LCSC">C3151830</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <libsource lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605" description=""/>
+      <property name="LCSC Part" value="C3151830"/>
+      <property name="LCSC" value="C3151830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3ef497d-4169-4476-abd9-0881f50d3b48</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>RVT1V101M0605</value>
+      <footprint>Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830:Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830</footprint>
+      <fields>
+        <field name="LCSC">C3151830</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <libsource lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605" description=""/>
+      <property name="LCSC Part" value="C3151830"/>
+      <property name="LCSC" value="C3151830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b60871e6-5a2d-43f8-affe-126b4107942c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f4fd940-9ecd-4f31-b8be-09ca304b3a1a</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fcfd42f-e959-48c8-bcf4-e16a404bc424</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>RVT1V101M0605</value>
+      <footprint>Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830:Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830</footprint>
+      <fields>
+        <field name="LCSC">C3151830</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <libsource lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605" description=""/>
+      <property name="LCSC Part" value="C3151830"/>
+      <property name="LCSC" value="C3151830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b84eabc3-9a52-4a75-8d94-2c62928b5603</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>RVT1V101M0605</value>
+      <footprint>Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830:Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830</footprint>
+      <fields>
+        <field name="LCSC">C3151830</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <libsource lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605" description=""/>
+      <property name="LCSC Part" value="C3151830"/>
+      <property name="LCSC" value="C3151830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0763a3d1-b85d-4564-bb09-9f5148a15412</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a23481a-c0a9-4b20-8e73-3f69418bfb7b</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d04923d-7c9b-48c3-a4c0-3370eae9d37e</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>RVT1V101M0605</value>
+      <footprint>Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830:Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830</footprint>
+      <fields>
+        <field name="LCSC">C3151830</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <libsource lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605" description=""/>
+      <property name="LCSC Part" value="C3151830"/>
+      <property name="LCSC" value="C3151830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f64d046f-c154-4f6c-b890-a86ae310c329</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>RVT1V101M0605</value>
+      <footprint>Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830:Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830</footprint>
+      <fields>
+        <field name="LCSC">C3151830</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <libsource lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605" description=""/>
+      <property name="LCSC Part" value="C3151830"/>
+      <property name="LCSC" value="C3151830"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20e90142-f501-43b6-8a50-53144f0e291d</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d3c532e-4f00-4ee8-9c52-651eddb3bf9d</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>CGA2B3X7R1V104KT0Y0F</value>
+      <footprint>TDK cap_100nF_35V_C0402_C343047:C0402_L1.0-W0.5-H0.5</footprint>
+      <fields>
+        <field name="LCSC">C343047</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <libsource lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F" description=""/>
+      <property name="LCSC Part" value="C343047"/>
+      <property name="LCSC" value="C343047"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f84c637e-7c28-45c4-af9b-c9a8a8ec7ff8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BZT52C5V6S_C19077441</value>
+      <footprint>BZT52C5V6S_5.2V_to_6V_200mW_5.6V_SOD-323_Zener_Diodes_C19077441:SOD-323_L1.7-W1.3-LS2.6-RD</footprint>
+      <fields>
+        <field name="LCSC">C19077441</field>
+        <field name="LCSC Part">C19077441</field>
+      </fields>
+      <libsource lib="BZT52C5V6S_5.2V_to_6V_200mW_5.6V_SOD-323_Zener_Diodes_C19077441" part="BZT52C5V6S_C19077441" description=""/>
+      <property name="LCSC Part" value="C19077441"/>
+      <property name="LCSC" value="C19077441"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00d1f90e-64b4-4fa5-9955-acfff19d85d7</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0ZCJ0020FF2E</value>
+      <footprint>Bel_Fuse_0ZCJ0020FF2E_30V_200mA_10A_400mA_1206_Resettable_Fuses_C6964258.pretty:F1206</footprint>
+      <fields>
+        <field name="LCSC">C6964258</field>
+        <field name="LCSC Part">C6964258</field>
+      </fields>
+      <libsource lib="Bel_Fuse_0ZCJ0020FF2E_30V_200mA_10A_400mA_1206_Resettable_Fuses_C6964258" part="0ZCJ0020FF2E" description=""/>
+      <property name="LCSC Part" value="C6964258"/>
+      <property name="LCSC" value="C6964258"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d378bf0-0836-4792-8951-50ecbf1cb1ee</tstamps>
+    </comp>
+    <comp ref="FPC1">
+      <value>AFC01-S12FCA-00</value>
+      <footprint>FFC_conn_Flip type_12P_P=0.5mm_C262661:FFC_conn_Flip type_12P_P=0.5mm_C262661</footprint>
+      <datasheet>https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</datasheet>
+      <fields>
+        <field name="LCSC">C262661</field>
+        <field name="LCSC Part">C262661</field>
+      </fields>
+      <libsource lib="FFC_conn_Flip type_12P_P=0.5mm_C262661" part="AFC01-S12FCA-00" description=""/>
+      <property name="LCSC Part" value="C262661"/>
+      <property name="LCSC" value="C262661"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>841d7d1f-dec5-4380-990b-512090bd597c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1376796-6ef6-4cdd-ac6b-4ef6e04fa4a9</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00edf09d-89b9-4b9d-8e7b-7e44f5c5bc3b</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09d73f24-5d3b-484a-80f8-560964a7fec2</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>400f9880-72e7-4442-be05-2d43e0969ec3</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbd24ec6-dcc0-48cb-89d6-fd2f4ad22437</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0265a07-e65e-4912-8449-adc4b41f0d74</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7b9e8a6-4699-4856-971b-1d88b07d963f</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c33d98d9-db6a-4f19-8e4b-eec04106bb8f</tstamps>
+    </comp>
+    <comp ref="JM1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>811ed073-53ca-45a5-a71c-690d0a436ff7</tstamps>
+    </comp>
+    <comp ref="JM2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f112ab0d-b37b-4382-bacc-06a231ad3311</tstamps>
+    </comp>
+    <comp ref="JM3">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c31c5bc-2778-4f3f-8b62-ad003c5fd3fd</tstamps>
+    </comp>
+    <comp ref="JM4">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>500360e4-048c-413c-8a7f-f4c355fc6ccb</tstamps>
+    </comp>
+    <comp ref="JM5">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a247e6b-558f-40d0-aa58-297cee8528b0</tstamps>
+    </comp>
+    <comp ref="JM6">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f6a96cf-63ef-435c-8a8b-30e761fabc38</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61f1f63d-e1a2-4f95-8dec-09d5b338f550</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_2_Open</value>
+      <footprint>solder_jumpers:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c61d3ea-a1c3-41c5-b784-efad6a1a5b0c</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>FTC252012S100MBCA</value>
+      <footprint>Inductor_10uH_1pt6A_2x2pt5mm_C5832376:Inductor_10uH_1pt6A_2x2pt5mm_C5832376</footprint>
+      <fields>
+        <field name="LCSC">C5832376</field>
+        <field name="LCSC Part">C5832376</field>
+      </fields>
+      <libsource lib="Inductor_10uH_1pt6A_2x2pt5mm_C5832376" part="FTC252012S100MBCA" description=""/>
+      <property name="LCSC Part" value="C5832376"/>
+      <property name="LCSC" value="C5832376"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d00c9cb-ba2f-4bef-8df2-fdaa31cc309e</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>Green</value>
+      <footprint>green_LED_wurth_150060GS75000_0603_C5252984:LEDC1608X80N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=eda</field>
+        <field name="DESCRIPTION">Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package</field>
+        <field name="Description">
+Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)
+</field>
+        <field name="HEIGHT">0.8mm</field>
+        <field name="LCSC">C5252984</field>
+        <field name="LCSC Part #">C5252984</field>
+        <field name="MANUFACTURER_NAME">Wurth Elektronik</field>
+        <field name="MANUFACTURER_PART_NUMBER">150060GS75000</field>
+        <field name="MF">Wurth Electronics</field>
+        <field name="MOUSER_PART_NUMBER">710-150060GS75000</field>
+        <field name="MOUSER_PRICE-STOCK">https://www.mouser.com/Search/Refine.aspx?Keyword=710-150060GS75000</field>
+        <field name="MP">150060GS75000</field>
+        <field name="Package">0603 Würth Elektronik</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="green_LED_wurth_150060GS75000_0603_C5252984" part="150060GS75000" description=""/>
+      <property name="MANUFACTURER_NAME" value="Wurth Elektronik"/>
+      <property name="MF" value="Wurth Electronics"/>
+      <property name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=710-150060GS75000"/>
+      <property name="DESCRIPTION" value="Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package"/>
+      <property name="MOUSER_PART_NUMBER" value="710-150060GS75000"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="0603 Würth Elektronik"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=eda"/>
+      <property name="HEIGHT" value="0.8mm"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=snap"/>
+      <property name="MP" value="150060GS75000"/>
+      <property name="Description" value="&#xA;Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="150060GS75000"/>
+      <property name="LCSC Part #" value="C5252984"/>
+      <property name="LCSC" value="C5252984"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>066cb198-3e7c-44c3-a430-7603e0c45a69</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>TMC2209_SILENTSTEPSTICK</value>
+      <footprint>TMC2209_bigtreetech_V1_3:MODULE_TMC2209_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="PARTREV">1.20</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK" description=""/>
+      <property name="MF" value="Trinamic Motion Control GmbH"/>
+      <property name="Description" value="&#xA;                        &#xA;                            TMC2209 Motor Controller/Driver Power Management Evaluation Board&#xA;                        &#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"/>
+      <property name="MP" value="TMC2209SILENTSTEPSTICK"/>
+      <property name="MANUFACTURER" value="Trinamic Motion Control GmbH"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TMC2209 SILENTSTEPSTICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bb2bb85-285f-4dd0-bc50-f3fad14d6077</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>TMC2209_SILENTSTEPSTICK</value>
+      <footprint>TMC2209_bigtreetech_V1_3:MODULE_TMC2209_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="PARTREV">1.20</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK" description=""/>
+      <property name="MF" value="Trinamic Motion Control GmbH"/>
+      <property name="Description" value="&#xA;                        &#xA;                            TMC2209 Motor Controller/Driver Power Management Evaluation Board&#xA;                        &#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"/>
+      <property name="MP" value="TMC2209SILENTSTEPSTICK"/>
+      <property name="MANUFACTURER" value="Trinamic Motion Control GmbH"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TMC2209 SILENTSTEPSTICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ee82813-ef37-40ef-bc86-f32b325055a6</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>TMC2209_SILENTSTEPSTICK</value>
+      <footprint>TMC2209_bigtreetech_V1_3:MODULE_TMC2209_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="PARTREV">1.20</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK" description=""/>
+      <property name="MF" value="Trinamic Motion Control GmbH"/>
+      <property name="Description" value="&#xA;                        &#xA;                            TMC2209 Motor Controller/Driver Power Management Evaluation Board&#xA;                        &#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"/>
+      <property name="MP" value="TMC2209SILENTSTEPSTICK"/>
+      <property name="MANUFACTURER" value="Trinamic Motion Control GmbH"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TMC2209 SILENTSTEPSTICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b32f108e-b871-4240-8ee4-3c25d78af03a</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>TMC2209_SILENTSTEPSTICK</value>
+      <footprint>TMC2209_bigtreetech_V1_3:MODULE_TMC2209_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="PARTREV">1.20</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK" description=""/>
+      <property name="MF" value="Trinamic Motion Control GmbH"/>
+      <property name="Description" value="&#xA;                        &#xA;                            TMC2209 Motor Controller/Driver Power Management Evaluation Board&#xA;                        &#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"/>
+      <property name="MP" value="TMC2209SILENTSTEPSTICK"/>
+      <property name="MANUFACTURER" value="Trinamic Motion Control GmbH"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TMC2209 SILENTSTEPSTICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a383b144-4d74-4419-80bc-e96bd7b9cfab</tstamps>
+    </comp>
+    <comp ref="M5">
+      <value>TMC2209_SILENTSTEPSTICK</value>
+      <footprint>TMC2209_bigtreetech_V1_3:MODULE_TMC2209_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="PARTREV">1.20</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK" description=""/>
+      <property name="MF" value="Trinamic Motion Control GmbH"/>
+      <property name="Description" value="&#xA;                        &#xA;                            TMC2209 Motor Controller/Driver Power Management Evaluation Board&#xA;                        &#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"/>
+      <property name="MP" value="TMC2209SILENTSTEPSTICK"/>
+      <property name="MANUFACTURER" value="Trinamic Motion Control GmbH"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TMC2209 SILENTSTEPSTICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25f3da32-74c6-4280-9851-a814828e17c0</tstamps>
+    </comp>
+    <comp ref="M6">
+      <value>TMC2209_SILENTSTEPSTICK</value>
+      <footprint>TMC2209_bigtreetech_V1_3:MODULE_TMC2209_SILENTSTEPSTICK</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="PARTREV">1.20</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK" description=""/>
+      <property name="MF" value="Trinamic Motion Control GmbH"/>
+      <property name="Description" value="&#xA;                        &#xA;                            TMC2209 Motor Controller/Driver Power Management Evaluation Board&#xA;                        &#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="1.20"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap"/>
+      <property name="MP" value="TMC2209SILENTSTEPSTICK"/>
+      <property name="MANUFACTURER" value="Trinamic Motion Control GmbH"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="TMC2209 SILENTSTEPSTICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f49d98e-285b-49ad-ad6e-7c68a4e4f9c6</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MAC97A8-23-3L</value>
+      <footprint>KY_MAC97A8-23-3L_10mA_800V_SOT-23-3L_Thyristors_SCR_C2831929:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BL-A</footprint>
+      <fields>
+        <field name="LCSC">C2831929</field>
+        <field name="LCSC Part">C2831929</field>
+      </fields>
+      <libsource lib="KY_MAC97A8-23-3L_10mA_800V_SOT-23-3L_Thyristors_SCR_C2831929" part="MAC97A8-23-3L" description=""/>
+      <property name="LCSC Part" value="C2831929"/>
+      <property name="LCSC" value="C2831929"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1cd9290-e9b0-4e60-b4f2-865d82f821ff</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5kR, 0.25W</value>
+      <footprint>5kR_250mW_yageo_RT1206BRD075KL_1206_C870818:RESC3116X65N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film
+</field>
+        <field name="LCSC">C870818</field>
+        <field name="LCSC Part #">C870818</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RT1206BRD075KL</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5kR_250mW_yageo_RT1206BRD075KL_1206_C870818" part="RT1206BRD075KL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film&#xA;"/>
+      <property name="Package" value="3116 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RT1206BRD075KL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C870818"/>
+      <property name="LCSC" value="C870818"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61f5ecd0-1b7f-46e7-a868-aab9eb12cc03</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10kR, 100mW</value>
+      <footprint>10kR_100mW_yageo_RC0603FR-0710KL_0603_C98220:RESC1607X60N</footprint>
+      <fields>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603FR-0710KL/Yageo/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="Description">
+10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C98220</field>
+        <field name="LCSC Part #">C98220</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603FR-0710KL</field>
+        <field name="PACKAGE">0603 Yageo</field>
+        <field name="PRICE">None</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/RC0603FR-0710KL/?ref=eda</field>
+        <field name="Package">0603 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105933&amp;manufacturer=Yageo&amp;part_name=RC0603FR-0710KL&amp;search_term=rc0603fr-0710kl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603FR-0710KL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="10kR_100mW_yageo_RC0603FR-0710KL_0603_C98220" part="RC0603FR-0710KL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
+      <property name="PACKAGE" value="0603 Yageo"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="0603 Yageo"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603FR-0710KL/Yageo/view-part/?ref=eda"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603FR-0710KL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603FR-0710KL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105933&amp;manufacturer=Yageo&amp;part_name=RC0603FR-0710KL&amp;search_term=rc0603fr-0710kl"/>
+      <property name="Description" value="&#xA;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="In Stock"/>
+      <property name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/RC0603FR-0710KL/?ref=eda"/>
+      <property name="LCSC Part #" value="C98220"/>
+      <property name="LCSC" value="C98220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5c28cc3-2e74-40f8-b7e7-7b9f8c3afdd3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88afe8ba-f0f3-4a16-a2a1-94d03ae479f3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>442d4162-6df3-4c81-b108-94fd9351b0f0</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>FRC0805F1902TS</value>
+      <footprint>Resistor_19kΩ_0.125W_150V_0805_C2930177:Resistor_19kΩ_0.125W_150V_0805_C2930177</footprint>
+      <fields>
+        <field name="LCSC">C2930177</field>
+        <field name="LCSC Part">C2930177</field>
+      </fields>
+      <libsource lib="Resistor_19kΩ_0.125W_150V_0805_C2930177" part="FRC0805F1902TS" description=""/>
+      <property name="LCSC Part" value="C2930177"/>
+      <property name="LCSC" value="C2930177"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc9046ca-d087-44f3-8ae9-153f38691a8f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b38e579c-0d3e-4031-a526-96fd9099a0c1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>524bc6b6-1f04-4057-b6a0-ba7666b961aa</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0055348a-e287-4b6e-be5c-c92ea303e3a1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0402WGF2000TCE</value>
+      <footprint>62.5mW_Resistor_50V_±1%_200Ω_0402_C25087:R0402</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</datasheet>
+      <fields>
+        <field name="LCSC">C25087</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <libsource lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE" description=""/>
+      <property name="LCSC Part" value="C25087"/>
+      <property name="LCSC" value="C25087"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dfc3d7d-7fb2-43c4-a89c-6658a0f65d1b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0402WGF2000TCE</value>
+      <footprint>62.5mW_Resistor_50V_±1%_200Ω_0402_C25087:R0402</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</datasheet>
+      <fields>
+        <field name="LCSC">C25087</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <libsource lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE" description=""/>
+      <property name="LCSC Part" value="C25087"/>
+      <property name="LCSC" value="C25087"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4c1a218-4943-40a4-949b-d12d71a47ba3</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>0402WGF2000TCE</value>
+      <footprint>62.5mW_Resistor_50V_±1%_200Ω_0402_C25087:R0402</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</datasheet>
+      <fields>
+        <field name="LCSC">C25087</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <libsource lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE" description=""/>
+      <property name="LCSC Part" value="C25087"/>
+      <property name="LCSC" value="C25087"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82c38172-4b46-41ac-9857-003eebcf8b43</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0402WGF2000TCE</value>
+      <footprint>62.5mW_Resistor_50V_±1%_200Ω_0402_C25087:R0402</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</datasheet>
+      <fields>
+        <field name="LCSC">C25087</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <libsource lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE" description=""/>
+      <property name="LCSC Part" value="C25087"/>
+      <property name="LCSC" value="C25087"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5efda20-7a31-4776-84ad-062e95880600</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>0402WGF2000TCE</value>
+      <footprint>62.5mW_Resistor_50V_±1%_200Ω_0402_C25087:R0402</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</datasheet>
+      <fields>
+        <field name="LCSC">C25087</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <libsource lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE" description=""/>
+      <property name="LCSC Part" value="C25087"/>
+      <property name="LCSC" value="C25087"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1683b3f-ad97-4079-b32d-d7fa1484ca9f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>0402WGF2000TCE</value>
+      <footprint>62.5mW_Resistor_50V_±1%_200Ω_0402_C25087:R0402</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</datasheet>
+      <fields>
+        <field name="LCSC">C25087</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <libsource lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE" description=""/>
+      <property name="LCSC Part" value="C25087"/>
+      <property name="LCSC" value="C25087"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e5e25a0-e870-4731-83ba-51fb3c2b8a22</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0e169f6-2d8b-46d5-bc7d-0288f35e7d5f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fce4395a-890d-43e3-8c99-49ec0b721802</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8505c73-71cf-4058-a035-eea1560594ff</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>414b3939-19a4-47ad-b164-d23dc605ef0d</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_ 100kΩ_62.5mW_50V_0402_C60491:Resistor_ 100kΩ_62.5mW_50V_0402_C60491</footprint>
+      <datasheet>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</datasheet>
+      <fields>
+        <field name="LCSC">C60491</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <libsource lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL" description=""/>
+      <property name="LCSC Part" value="C60491"/>
+      <property name="LCSC" value="C60491"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7c5b9e2-7bf6-49f3-8303-f2e18b3ce319</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1kR, 0.25W</value>
+      <footprint>1kR_250mW_yageo_RC1206FR-071KL_1206_C131398:RESC3116X65N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C131398</field>
+        <field name="LCSC Part #">C131398</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC1206FR-071KL</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=491264&amp;manufacturer=Yageo&amp;part_name=RC1206FR-071KL&amp;search_term=rc1206fr-071kl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="1kR_250mW_yageo_RC1206FR-071KL_1206_C131398" part="RC1206FR-071KL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="3116 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC1206FR-071KL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=491264&amp;manufacturer=Yageo&amp;part_name=RC1206FR-071KL&amp;search_term=rc1206fr-071kl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C131398"/>
+      <property name="LCSC" value="C131398"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5ff562b-6694-41a8-b410-562f95db29b9</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1kR, 0.25W</value>
+      <footprint>1kR_250mW_yageo_RC1206FR-071KL_1206_C131398:RESC3116X65N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C131398</field>
+        <field name="LCSC Part #">C131398</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC1206FR-071KL</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=491264&amp;manufacturer=Yageo&amp;part_name=RC1206FR-071KL&amp;search_term=rc1206fr-071kl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="1kR_250mW_yageo_RC1206FR-071KL_1206_C131398" part="RC1206FR-071KL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="3116 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC1206FR-071KL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=491264&amp;manufacturer=Yageo&amp;part_name=RC1206FR-071KL&amp;search_term=rc1206fr-071kl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C131398"/>
+      <property name="LCSC" value="C131398"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2831e49-77cc-4dd4-bdde-b0b0a1a25928</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c03b30a7-9ad8-4b4f-bad3-63785b6b55a1</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b3ca31-3369-4ad4-8617-a7953ccd691e</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60bc1813-079c-49d4-a4a8-6d816e2aa5c1</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c46925e4-a78a-4c9f-8fda-40cfc825c396</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a716a075-342f-4d18-b294-8b5e01638eed</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9b4436a-9a26-4fcf-91a3-284b38f23431</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>33R, 0.1W</value>
+      <footprint>33R_100mW_yageo_RC0603JR-0733RL_0603_C108407:RESC1608X55N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="LCSC">C108407</field>
+        <field name="LCSC Part #">C108407</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&#xA;"/>
+      <property name="Package" value="1608 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RC0603JR-0733RL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108407"/>
+      <property name="LCSC" value="C108407"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f9545af-54e4-44c9-a24c-070e98f4247b</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>5kR, 0.25W</value>
+      <footprint>5kR_250mW_yageo_RT1206BRD075KL_1206_C870818:RESC3116X65N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film
+</field>
+        <field name="LCSC">C870818</field>
+        <field name="LCSC Part #">C870818</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RT1206BRD075KL</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5kR_250mW_yageo_RT1206BRD075KL_1206_C870818" part="RT1206BRD075KL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film&#xA;"/>
+      <property name="Package" value="3116 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RT1206BRD075KL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C870818"/>
+      <property name="LCSC" value="C870818"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>590a95f4-fec8-4555-b90f-668c020faeab</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>5kR, 0.25W</value>
+      <footprint>5kR_250mW_yageo_RT1206BRD075KL_1206_C870818:RESC3116X65N</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda</field>
+        <field name="Description">
+5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film
+</field>
+        <field name="LCSC">C870818</field>
+        <field name="LCSC Part #">C870818</field>
+        <field name="MF">Yageo</field>
+        <field name="MP">RT1206BRD075KL</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5kR_250mW_yageo_RT1206BRD075KL_1206_C870818" part="RT1206BRD075KL" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description" value="&#xA;5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film&#xA;"/>
+      <property name="Package" value="3116 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="RT1206BRD075KL"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C870818"/>
+      <property name="LCSC" value="C870818"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>720585f3-ba14-4d74-ba12-3d5024793462</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>DSWB06LHGET</value>
+      <footprint>6_SPST_Through_Hole_DIP_C99416:6_SPST_Through_Hole_DIP_C99416</footprint>
+      <datasheet>https://lcsc.com/product-detail/DIP-Switches_DIP-switch-Dip-Switch-DSWB06LHGET_C99416.html</datasheet>
+      <fields>
+        <field name="LCSC">C99416</field>
+        <field name="LCSC Part">C99416</field>
+      </fields>
+      <libsource lib="6_SPST_Through_Hole_DIP_C99416" part="DSWB06LHGET" description=""/>
+      <property name="LCSC Part" value="C99416"/>
+      <property name="LCSC" value="C99416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac2a90bd-140d-49e0-8afe-b5e1b9a5e354</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TP6841S6-A</value>
+      <footprint>Step-down_800mA_4.5V_to_40V_SOT-23-6_C2844924:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</footprint>
+      <fields>
+        <field name="LCSC">C2844924</field>
+        <field name="LCSC Part">C2844924</field>
+      </fields>
+      <libsource lib="Step-down_800mA_4.5V_to_40V_SOT-23-6_C2844924" part="TP6841S6-A" description=""/>
+      <property name="LCSC Part" value="C2844924"/>
+      <property name="LCSC" value="C2844924"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf3c5717-fadc-4d5a-9450-74aae40afbd1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a8fb6f7-2c60-41cf-80f0-f60407d34c87</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ESP32-S3-DEVKITC-1-N8R2</value>
+      <footprint>ESP32-S3-DEVKITC-1-N8R2:XCVR_ESP32-S3-DEVKITC-1-N8R2</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="Description">
+WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header
+</field>
+        <field name="MANUFACTURER">Espressif</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="MP">ESP32-S3-DEVKITC-1-N8R2</field>
+        <field name="PARTREV">V1</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=8918256&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-S3-DEVKITC-1-N8R2&amp;search_term=esp32-s3-devkitc-1-n8</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif+Systems/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ESP32-S3-DEVKITC-1-N8R2" part="ESP32-S3-DEVKITC-1-N8R2" description=""/>
+      <property name="MF" value="Espressif Systems"/>
+      <property name="Description" value="&#xA;WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif+Systems/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V1"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif+Systems/view-part/?ref=snap"/>
+      <property name="MP" value="ESP32-S3-DEVKITC-1-N8R2"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=8918256&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-S3-DEVKITC-1-N8R2&amp;search_term=esp32-s3-devkitc-1-n8"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Espressif"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>457dd1a6-5ada-4df4-b728-12e6e5381a11</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>XT30UPB-M</value>
+      <footprint>high_current_connector_amass_XT30UPB-M_C108769:XT30UPB-M</footprint>
+      <fields>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda</field>
+        <field name="Description">
+Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V
+</field>
+        <field name="LCSC">C108769</field>
+        <field name="LCSC Part #">C108769</field>
+        <field name="MF">amass</field>
+        <field name="MP">XT30UPB-M</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="high_current_connector_amass_XT30UPB-M_C108769" part="XT30UPB-M" description=""/>
+      <property name="MF" value="amass"/>
+      <property name="Description" value="&#xA;Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap"/>
+      <property name="MP" value="XT30UPB-M"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda"/>
+      <property name="LCSC Part #" value="C108769"/>
+      <property name="LCSC" value="C108769"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6248be0-7456-4f57-8836-ec6e3936fe6c</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a4a6c36-9aa3-4ce4-afec-18d2d80edf69</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67d6240e-cf3a-4aca-b2fd-3f87cf1828a4</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d12da777-e2d8-46c0-9fbd-bb31c475161b</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13d542a4-9fff-45b7-9ebf-4c8f5ebb84d2</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e3e3814-727b-4d22-bcd5-af24d37db51f</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>XL-1608UBC-06A</value>
+      <footprint>Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904:Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904</footprint>
+      <fields>
+        <field name="LCSC">C7371904</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <libsource lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A" description=""/>
+      <property name="LCSC Part" value="C7371904"/>
+      <property name="LCSC" value="C7371904"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="stepper_with_TMC2209_controller_board_V1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62c785fa-ec90-4edc-971f-c4d0ccdd0954</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="100nf_16V_MLCC_GRM155R71C104KA88D_C71629" part="GRM155R71C104KA88D">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM155R71C104KA88D</field>
+        <field name="Footprint">GRM155R71C104KA88D:CAPC1005X55N</field>
+        <field name="MF">Murata</field>
+        <field name="Description">
+SMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 16Vdc
+</field>
+        <field name="Package">1005 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GRM155R71C104KA88D/Murata+Electronics+North+America/view-part/?ref=snap</field>
+        <field name="MP">GRM155R71C104KA88D</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4750&amp;manufacturer=Murata&amp;part_name=GRM155R71C104KA88D&amp;search_term=grm155r71c104ka88d</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GRM155R71C104KA88D/Murata+Electronics+North+America/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="100nf_cap_GCM155R71C104KA55J" part="GCM155R71C104KA55J">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCM155R71C104KA55J</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="MF">Murata</field>
+        <field name="Description">
+0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)
+</field>
+        <field name="Package">1005 Taiyo Yuden</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=snap</field>
+        <field name="MP">GCM155R71C104KA55J</field>
+        <field name="Purchase-URL">https://pricing.snapeda.com/search?q=GCM155R71C104KA55J&amp;ref=eda</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/GCM155R71C104KA55J/Murata+Electronics+North+America/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="10kR_100mW_yageo_RC0603FR-0710KL_0603_C98220" part="RC0603FR-0710KL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603FR-0710KL</field>
+        <field name="Footprint">RC0603FR-0710KL:RESC1607X60N</field>
+        <field name="MF">Yageo</field>
+        <field name="DESCRIPTION">10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film</field>
+        <field name="PACKAGE">0603 Yageo</field>
+        <field name="PRICE">None</field>
+        <field name="Package">0603 Yageo</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603FR-0710KL/Yageo/view-part/?ref=eda</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603FR-0710KL/Yageo/view-part/?ref=snap</field>
+        <field name="MP">RC0603FR-0710KL</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=105933&amp;manufacturer=Yageo&amp;part_name=RC0603FR-0710KL&amp;search_term=rc0603fr-0710kl</field>
+        <field name="Description">
+10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="AVAILABILITY">In Stock</field>
+        <field name="PURCHASE-URL">https://pricing.snapeda.com/search/part/RC0603FR-0710KL/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1kR_250mW_yageo_RC1206FR-071KL_1206_C131398" part="RC1206FR-071KL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC1206FR-071KL</field>
+        <field name="Footprint">RC1206FR-071KL:RESC3116X65N</field>
+        <field name="MF">Yageo</field>
+        <field name="Description">
+1 kOhms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=snap</field>
+        <field name="MP">RC1206FR-071KL</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=491264&amp;manufacturer=Yageo&amp;part_name=RC1206FR-071KL&amp;search_term=rc1206fr-071kl</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC1206FR-071KL/Yageo/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407" part="RC0603JR-0733RL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0603JR-0733RL</field>
+        <field name="Footprint">RC0603JR-0733RL:RESC1608X55N</field>
+        <field name="MF">Yageo</field>
+        <field name="Description">
+33 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film
+</field>
+        <field name="Package">1608 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=snap</field>
+        <field name="MP">RC0603JR-0733RL</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=615083&amp;manufacturer=Yageo&amp;part_name=RC0603JR-0733RL&amp;search_term=rc0603jr-0733rl</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RC0603JR-0733RL/Yageo/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="470uF_35V_Alu_cap_panasonic_EEH-ZS1V471P_C403803" part="EEHZS1V471P">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEHZS1V471P</field>
+        <field name="Footprint">EEHZS1V471P:CAP_EEHZS1V471P</field>
+        <field name="MF">Panasonic Electronic Components</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">16.5mm</field>
+        <field name="Package">RADIAL-2 Panasonic</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/EEH-ZS1V471P/Panasonic+Electronic+Components/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">30-Sep-20</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/EEH-ZS1V471P/Panasonic+Electronic+Components/view-part/?ref=snap</field>
+        <field name="MP">EEH-ZS1V471P</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3214512&amp;manufacturer=Panasonic Electronic Components&amp;part_name=EEH-ZS1V471P&amp;search_term=eehzs1v471p</field>
+        <field name="Description">
+470F 35V Aluminum - Polymer Capacitors Radial, Can - SMD 11mOhm 4000 Hrs @ 125C
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Panasonic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="5kR_250mW_yageo_RT1206BRD075KL_1206_C870818" part="RT1206BRD075KL">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RT1206BRD075KL</field>
+        <field name="Footprint">RT1206BRD075KL:RESC3116X65N</field>
+        <field name="MF">Yageo</field>
+        <field name="Description">
+5 kOhms ±0.1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) - Thin Film
+</field>
+        <field name="Package">3116 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=snap</field>
+        <field name="MP">RT1206BRD075KL</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2692467&amp;manufacturer=Yageo&amp;part_name=RT1206BRD075KL&amp;search_term=rt1206brd075kl</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RT1206BRD075KL/Yageo/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087" part="0402WGF2000TCE">
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0402WGF2000TCE</field>
+        <field name="Footprint">easyeda2kicad:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_200R-2000-1_C25087.html</field>
+        <field name="LCSC Part">C25087</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="6_SPST_Through_Hole_DIP_C99416" part="DSWB06LHGET">
+      <docs>https://lcsc.com/product-detail/DIP-Switches_DIP-switch-Dip-Switch-DSWB06LHGET_C99416.html</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DSWB06LHGET</field>
+        <field name="Footprint">easyeda2kicad:SW-TH_DSWB06LHGET</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/DIP-Switches_DIP-switch-Dip-Switch-DSWB06LHGET_C99416.html</field>
+        <field name="LCSC Part">C99416</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="BZT52C5V6S_5.2V_to_6V_200mW_5.6V_SOD-323_Zener_Diodes_C19077441" part="BZT52C5V6S_C19077441">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZT52C5V6S_C19077441</field>
+        <field name="Footprint">easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-RD</field>
+        <field name="LCSC Part">C19077441</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="unspecified"/>
+        <pin num="2" name="A" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Bel_Fuse_0ZCJ0020FF2E_30V_200mA_10A_400mA_1206_Resettable_Fuses_C6964258" part="0ZCJ0020FF2E">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">0ZCJ0020FF2E</field>
+        <field name="Footprint">easyeda2kicad:F1206</field>
+        <field name="LCSC Part">C6964258</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904" part="XL-1608UBC-06A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XL-1608UBC-06A</field>
+        <field name="Footprint">easyeda2kicad:LED0603-R-RD</field>
+        <field name="LCSC Part">C7371904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="K" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Cap_MLCC_50V_22uF_X7R_2220_C784103" part="FS55X226K500EHG">
+      <docs>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">FS55X226K500EHG</field>
+        <field name="Footprint">easyeda2kicad:C2220</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_PSA-Prosperity-Dielectrics-FS55X226K500EHG_C784103.html</field>
+        <field name="LCSC Part">C784103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830" part="RVT1V101M0605">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">RVT1V101M0605</field>
+        <field name="Footprint">easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD</field>
+        <field name="LCSC Part">C3151830</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-S3-DEVKITC-1-N8R2" part="ESP32-S3-DEVKITC-1-N8R2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-DEVKITC-1-N8R2</field>
+        <field name="Footprint">ESP32-S3-DEVKITC-1-N8R2:XCVR_ESP32-S3-DEVKITC-1-N8R2</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="Description">
+WiFi Development Tools - 802.11 (Engineering Samples Only) ESP32-S3 General-Purpose Development Board, ESP32-S3-WROOM-1-N8R2, with Pin Header
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V1</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-S3-DEVKITC-1-N8R2/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-S3-DEVKITC-1-N8R2</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=8918256&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-S3-DEVKITC-1-N8R2&amp;search_term=esp32-s3-devkitc-1-n8</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Espressif</field>
+      </fields>
+      <pins>
+        <pin num="J1_1" name="3V3" type="power_in"/>
+        <pin num="J1_2" name="3V3" type="power_in"/>
+        <pin num="J1_3" name="RST" type="input"/>
+        <pin num="J1_4" name="GPIO4" type="bidirectional"/>
+        <pin num="J1_5" name="GPIO5" type="bidirectional"/>
+        <pin num="J1_6" name="GPIO6" type="bidirectional"/>
+        <pin num="J1_7" name="GPIO7" type="bidirectional"/>
+        <pin num="J1_8" name="GPIO15" type="bidirectional"/>
+        <pin num="J1_9" name="GPIO16" type="bidirectional"/>
+        <pin num="J1_10" name="GPIO17" type="bidirectional"/>
+        <pin num="J1_11" name="GPIO18" type="bidirectional"/>
+        <pin num="J1_12" name="GPIO8" type="bidirectional"/>
+        <pin num="J1_13" name="GPIO3" type="bidirectional"/>
+        <pin num="J1_14" name="GPIO46" type="bidirectional"/>
+        <pin num="J1_15" name="GPIO9" type="bidirectional"/>
+        <pin num="J1_16" name="GPIO10" type="bidirectional"/>
+        <pin num="J1_17" name="GPIO11" type="bidirectional"/>
+        <pin num="J1_18" name="GPIO12" type="bidirectional"/>
+        <pin num="J1_19" name="GPIO13" type="bidirectional"/>
+        <pin num="J1_20" name="GPIO14" type="bidirectional"/>
+        <pin num="J1_21" name="5V0" type="power_in"/>
+        <pin num="J1_22" name="GND" type="power_in"/>
+        <pin num="J3_1" name="GND" type="power_in"/>
+        <pin num="J3_2" name="U0TXD/GPIO43" type="bidirectional"/>
+        <pin num="J3_3" name="U0RXD/GPIO44" type="bidirectional"/>
+        <pin num="J3_4" name="GPIO1" type="bidirectional"/>
+        <pin num="J3_5" name="GPIO2" type="bidirectional"/>
+        <pin num="J3_6" name="MTMS/GPIO42" type="bidirectional"/>
+        <pin num="J3_7" name="MTDI/GPIO41" type="bidirectional"/>
+        <pin num="J3_8" name="MTDO/GPIO40" type="bidirectional"/>
+        <pin num="J3_9" name="MTCK/GPIO39" type="bidirectional"/>
+        <pin num="J3_10" name="GPIO38" type="bidirectional"/>
+        <pin num="J3_11" name="GPIO37" type="bidirectional"/>
+        <pin num="J3_12" name="GPIO36" type="bidirectional"/>
+        <pin num="J3_13" name="GPIO35" type="bidirectional"/>
+        <pin num="J3_14" name="GPIO0" type="bidirectional"/>
+        <pin num="J3_15" name="GPIO45" type="bidirectional"/>
+        <pin num="J3_16" name="GPIO48" type="bidirectional"/>
+        <pin num="J3_17" name="GPIO47" type="bidirectional"/>
+        <pin num="J3_18" name="GPIO21" type="bidirectional"/>
+        <pin num="J3_19" name="USB_D+/GPIO20" type="bidirectional"/>
+        <pin num="J3_20" name="USB_D-/GPIO19" type="bidirectional"/>
+        <pin num="J3_21" name="GND" type="power_in"/>
+        <pin num="J3_22" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FFC_conn_Flip type_12P_P=0.5mm_C262661" part="AFC01-S12FCA-00">
+      <docs>https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</docs>
+      <fields>
+        <field name="Reference">FPC</field>
+        <field name="Value">AFC01-S12FCA-00</field>
+        <field name="Footprint">easyeda2kicad:FPC-SMD_AFC01-S12FCA-00</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Others_JUSHUO-AFC01-S12FCA-00_C262661.html</field>
+        <field name="LCSC Part">C262661</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductor_10uH_1pt6A_2x2pt5mm_C5832376" part="FTC252012S100MBCA">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">FTC252012S100MBCA</field>
+        <field name="Footprint">easyeda2kicad:IND-SMD_L2.5-W2.0</field>
+        <field name="LCSC Part">C5832376</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KY_MAC97A8-23-3L_10mA_800V_SOT-23-3L_Thyristors_SCR_C2831929" part="MAC97A8-23-3L">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MAC97A8-23-3L</field>
+        <field name="Footprint">easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BL-A</field>
+        <field name="LCSC Part">C2831929</field>
+      </fields>
+      <pins>
+        <pin num="1" name="M1" type="unspecified"/>
+        <pin num="2" name="M2" type="unspecified"/>
+        <pin num="3" name="G" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663" part="CC0603KRX7R9BB104">
+      <docs>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0603KRX7R9BB104</field>
+        <field name="Footprint">easyeda2kicad:C0603</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html</field>
+        <field name="LCSC Part">C14663</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_ 100kΩ_62.5mW_50V_0402_C60491" part="RC0402FR-07100KL">
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-07100KL</field>
+        <field name="Footprint">easyeda2kicad:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100KR-1003-1_C60491.html</field>
+        <field name="LCSC Part">C60491</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_19kΩ_0.125W_150V_0805_C2930177" part="FRC0805F1902TS">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">FRC0805F1902TS</field>
+        <field name="Footprint">easyeda2kicad:R0805</field>
+        <field name="LCSC Part">C2930177</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Step-down_800mA_4.5V_to_40V_SOT-23-6_C2844924" part="TP6841S6-A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP6841S6-A</field>
+        <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
+        <field name="LCSC Part">C2844924</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BST" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="FB" type="unspecified"/>
+        <pin num="4" name="EN" type="unspecified"/>
+        <pin num="5" name="VIN" type="unspecified"/>
+        <pin num="6" name="SW" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="TDK cap_100nF_35V_C0402_C343047" part="CGA2B3X7R1V104KT0Y0F">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CGA2B3X7R1V104KT0Y0F</field>
+        <field name="Footprint">easyeda2kicad:C0402</field>
+        <field name="LCSC Part">C343047</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC2209_bigtreetech_V1_3" part="TMC2209_SILENTSTEPSTICK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMC2209_SILENTSTEPSTICK</field>
+        <field name="Footprint">TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK</field>
+        <field name="MF">Trinamic Motion Control GmbH</field>
+        <field name="Description">
+                        
+                            TMC2209 Motor Controller/Driver Power Management Evaluation Board
+                        
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">1.20</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TMC2209SILENTSTEPSTICK/Trinamic/view-part/?ref=snap</field>
+        <field name="MP">TMC2209SILENTSTEPSTICK</field>
+        <field name="MANUFACTURER">Trinamic Motion Control GmbH</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">TMC2209 SILENTSTEPSTICK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VIO" type="power_in"/>
+        <pin num="3" name="M1B" type="output"/>
+        <pin num="4" name="M1A" type="output"/>
+        <pin num="5" name="M2A" type="output"/>
+        <pin num="6" name="M2B" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VM" type="power_in"/>
+        <pin num="9" name="DIR" type="input"/>
+        <pin num="10" name="STEP" type="input"/>
+        <pin num="11" name="PDN" type="bidirectional"/>
+        <pin num="12" name="UART" type="bidirectional"/>
+        <pin num="13" name="SPRD" type="input"/>
+        <pin num="14" name="MS2" type="input"/>
+        <pin num="15" name="MS1" type="input"/>
+        <pin num="16" name="~{EN}" type="input"/>
+        <pin num="17" name="INDEX" type="output"/>
+        <pin num="18" name="DIAG" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="green_LED_wurth_150060GS75000_0603_C5252984" part="150060GS75000">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060GS75000</field>
+        <field name="Footprint">150060GS75000:LEDC1608X80N</field>
+        <field name="MANUFACTURER_NAME">Wurth Elektronik</field>
+        <field name="MF">Wurth Electronics</field>
+        <field name="MOUSER_PRICE-STOCK">https://www.mouser.com/Search/Refine.aspx?Keyword=710-150060GS75000</field>
+        <field name="DESCRIPTION">Wurth Elektronik WL-SMCW 520 nm Green LED, 1608 (0603) Clear SMD package</field>
+        <field name="MOUSER_PART_NUMBER">710-150060GS75000</field>
+        <field name="Price">None</field>
+        <field name="Package">0603 Würth Elektronik</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=eda</field>
+        <field name="HEIGHT">0.8mm</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/150060GS75000/Wurth+Electronics+Inc./view-part/?ref=snap</field>
+        <field name="MP">150060GS75000</field>
+        <field name="Description">
+Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric)
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER_PART_NUMBER">150060GS75000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="bidirectional"/>
+        <pin num="2" name="A" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="high_current_connector_amass_XT30UPB-M_C108769" part="XT30UPB-M">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XT30UPB-M</field>
+        <field name="Footprint">XT30UPB-M:XT30UPB-M</field>
+        <field name="MF">amass</field>
+        <field name="Description">
+Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; yellow; 15A; 500V
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=snap</field>
+        <field name="MP">XT30UPB-M</field>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/XT30UPB-M/AMASS/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="+" type="passive"/>
+        <pin num="P$2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="100nf_16V_MLCC_GRM155R71C104KA88D_C71629">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/100nf_16V_MLCC_GRM155R71C104KA88D_C71629.pretty/GRM155R71C104KA88D.kicad_sym</uri>
+    </library>
+    <library logical="100nf_cap_GCM155R71C104KA55J">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/100nf_cap_GCM155R71C104KA55J.pretty/GCM155R71C104KA55J.kicad_sym</uri>
+    </library>
+    <library logical="10kR_100mW_yageo_RC0603FR-0710KL_0603_C98220">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/10kR_100mW_yageo_RC0603FR-0710KL_0603_C98220.pretty/RC0603FR-0710KL.kicad_sym</uri>
+    </library>
+    <library logical="1kR_250mW_yageo_RC1206FR-071KL_1206_C131398">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/1kR_250mW_yageo_RC1206FR-071KL_1206_C131398.pretty/RC1206FR-071KL.kicad_sym</uri>
+    </library>
+    <library logical="33R_100mW_yageo_RC0603JR-0733RL_0603_C108407">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/33R_100mW_yageo_RC0603JR-0733RL_0603_C108407.pretty/RC0603JR-0733RL.kicad_sym</uri>
+    </library>
+    <library logical="470uF_35V_Alu_cap_panasonic_EEH-ZS1V471P_C403803">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/470uF_35V_Alu_cap_panasonic_EEH-ZS1V471P_C403803.pretty/EEHZS1V471P.kicad_sym</uri>
+    </library>
+    <library logical="5kR_250mW_yageo_RT1206BRD075KL_1206_C870818">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/5kR_250mW_yageo_RT1206BRD075KL_1206_C870818.pretty/RT1206BRD075KL.kicad_sym</uri>
+    </library>
+    <library logical="62.5mW_Resistor_50V_±1%_200Ω_0402_C25087">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/62.5mW_Resistor_50V_±1%_200Ω_0402_C25087.pretty/62.5mW_Resistor_50V_±1%_200Ω_0402_C25087.kicad_sym</uri>
+    </library>
+    <library logical="6_SPST_Through_Hole_DIP_C99416">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/6_SPST_Through_Hole_DIP_C99416.pretty/6_SPST_Through_Hole_DIP_C99416.kicad_sym</uri>
+    </library>
+    <library logical="BZT52C5V6S_5.2V_to_6V_200mW_5.6V_SOD-323_Zener_Diodes_C19077441">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/BZT52C5V6S_5.2V_to_6V_200mW_5.6V_SOD-323_Zener_Diodes_C19077441.pretty/BZT52C5V6S_5.2V_to_6V_200mW_5.6V_SOD-323_Zener_Diodes_C19077441.kicad_sym</uri>
+    </library>
+    <library logical="Bel_Fuse_0ZCJ0020FF2E_30V_200mA_10A_400mA_1206_Resettable_Fuses_C6964258">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Bel_Fuse_0ZCJ0020FF2E_30V_200mA_10A_400mA_1206_Resettable_Fuses_C6964258.pretty/Bel_Fuse_0ZCJ0020FF2E_30V_200mA_10A_400mA_1206_Resettable_Fuses_C6964258.kicad_sym</uri>
+    </library>
+    <library logical="Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904.pretty/Blue_LED_5mA_456nm~476nm_130°_2.6V~3V_0603_C7371904.kicad_sym</uri>
+    </library>
+    <library logical="Cap_MLCC_50V_22uF_X7R_2220_C784103">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Cap_MLCC_50V_22uF_X7R_2220_C784103.pretty/Cap_MLCC_50V_22uF_X7R_2220_C784103.kicad_sym</uri>
+    </library>
+    <library logical="Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830.pretty/Capacitor_100uF_35V_75mA@120Hz_±20%_D6pt3xL5pt4mm_C3151830.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-S3-DEVKITC-1-N8R2">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/ESP32-S3-DEVKITC-1-N8R2.pretty/ESP32-S3-DEVKITC-1-N8R2.kicad_sym</uri>
+    </library>
+    <library logical="FFC_conn_Flip type_12P_P=0.5mm_C262661">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/FFC_conn_Flip type_12P_P=0.5mm_C262661.pretty/FFC_conn_Flip type_12P_P=0.5mm_C262661.kicad_sym</uri>
+    </library>
+    <library logical="Inductor_10uH_1pt6A_2x2pt5mm_C5832376">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Inductor_10uH_1pt6A_2x2pt5mm_C5832376.pretty/Inductor_10uH_1pt6A_2x2pt5mm_C5832376.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="KY_MAC97A8-23-3L_10mA_800V_SOT-23-3L_Thyristors_SCR_C2831929">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/KY_MAC97A8-23-3L_10mA_800V_SOT-23-3L_Thyristors_SCR_C2831929.pretty/KY_MAC97A8-23-3L_10mA_800V_SOT-23-3L_Thyristors_SCR_C2831929.kicad_sym</uri>
+    </library>
+    <library logical="MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663.pretty/MLCC_Yageo_50V_100nF_X7R_±10%_0603_C14663.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_ 100kΩ_62.5mW_50V_0402_C60491">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Resistor_ 100kΩ_62.5mW_50V_0402_C60491.pretty/Resistor_ 100kΩ_62.5mW_50V_0402_C60491.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_19kΩ_0.125W_150V_0805_C2930177">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Resistor_19kΩ_0.125W_150V_0805_C2930177.pretty/Resistor_19kΩ_0.125W_150V_0805_C2930177.kicad_sym</uri>
+    </library>
+    <library logical="Step-down_800mA_4.5V_to_40V_SOT-23-6_C2844924">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/Step-down_800mA_4.5V_to_40V_SOT-23-6_C2844924.pretty/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL.kicad_sym</uri>
+    </library>
+    <library logical="TDK cap_100nF_35V_C0402_C343047">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/TDK cap_100nF_35V_C0402_C343047.pretty/C0402_L1.0-W0.5-H0.5.kicad_sym</uri>
+    </library>
+    <library logical="TMC2209_bigtreetech_V1_3">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/TMC2209_bigtreetech_V1_3.pretty/TMC2209_SILENTSTEPSTICK.kicad_sym</uri>
+    </library>
+    <library logical="green_LED_wurth_150060GS75000_0603_C5252984">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/green_LED_wurth_150060GS75000_0603_C5252984.pretty/150060GS75000.kicad_sym</uri>
+    </library>
+    <library logical="high_current_connector_amass_XT30UPB-M_C108769">
+      <uri>C:/Users/jashu/OneDrive/Documents/KiCad/6.0/footprints/high_current_connector_amass_XT30UPB-M_C108769.pretty/XT30UPB-M.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3v3">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R16" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R17" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R18" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R19" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J1_1" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U3" pin="J1_2" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="/5V">
+      <node ref="C19" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="unspecified"/>
+      <node ref="F1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="FPC1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="Q1" pin="2" pinfunction="M2" pintype="unspecified"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/5V_reg">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="F1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J1_21" pinfunction="5V0" pintype="power_in"/>
+    </net>
+    <net code="4" name="/24V">
+      <node ref="C1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="C15" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C17" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="C18" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M1" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="M2" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="M3" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="M4" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="M5" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="M6" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="VIN" pintype="unspecified"/>
+      <node ref="U4" pin="P$1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="5" name="/BST">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BST" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/CANH">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="/CANL">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/CAN_RX">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="J3_11" pinfunction="GPIO37" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/CAN_TX">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="J3_10" pinfunction="GPIO38" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/CLK">
+      <node ref="FPC1" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/CLK_1">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J1_19" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/CLK_SLP">
+      <node ref="M1" pin="11" pinfunction="PDN" pintype="bidirectional"/>
+      <node ref="M2" pin="11" pinfunction="PDN" pintype="bidirectional"/>
+      <node ref="M3" pin="11" pinfunction="PDN" pintype="bidirectional"/>
+      <node ref="M4" pin="11" pinfunction="PDN" pintype="bidirectional"/>
+      <node ref="M5" pin="11" pinfunction="PDN" pintype="bidirectional"/>
+      <node ref="M6" pin="11" pinfunction="PDN" pintype="bidirectional"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="SW1" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="13" name="/CS6">
+      <node ref="FPC1" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/CS6_1">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_18" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/CS7">
+      <node ref="FPC1" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/CS7_1">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_17" pinfunction="GPIO47" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/CS8">
+      <node ref="FPC1" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/CS8_1">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_16" pinfunction="GPIO48" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/CS9">
+      <node ref="FPC1" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/CS9_1">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_15" pinfunction="GPIO45" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/CS10">
+      <node ref="FPC1" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/CS10_1">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_14" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/CS11">
+      <node ref="FPC1" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/CS11_1">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_13" pinfunction="GPIO35" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/CS12">
+      <node ref="FPC1" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/CS12_1">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J3_12" pinfunction="GPIO36" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/DIAG_1">
+      <node ref="M1" pin="18" pinfunction="DIAG" pintype="output"/>
+    </net>
+    <net code="28" name="/DIAG_2">
+      <node ref="M2" pin="18" pinfunction="DIAG" pintype="output"/>
+    </net>
+    <net code="29" name="/DIAG_3">
+      <node ref="M3" pin="18" pinfunction="DIAG" pintype="output"/>
+    </net>
+    <net code="30" name="/DIAG_4">
+      <node ref="M4" pin="18" pinfunction="DIAG" pintype="output"/>
+    </net>
+    <net code="31" name="/DIAG_5">
+      <node ref="M5" pin="18" pinfunction="DIAG" pintype="output"/>
+    </net>
+    <net code="32" name="/DIAG_6">
+      <node ref="M6" pin="18" pinfunction="DIAG" pintype="output"/>
+    </net>
+    <net code="33" name="/EN">
+      <node ref="R3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="34" name="/FB">
+      <node ref="R4" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="35" name="/INDEX_1">
+      <node ref="M1" pin="17" pinfunction="INDEX" pintype="output"/>
+    </net>
+    <net code="36" name="/INDEX_2">
+      <node ref="M2" pin="17" pinfunction="INDEX" pintype="output"/>
+    </net>
+    <net code="37" name="/INDEX_3">
+      <node ref="M3" pin="17" pinfunction="INDEX" pintype="output"/>
+    </net>
+    <net code="38" name="/INDEX_4">
+      <node ref="M4" pin="17" pinfunction="INDEX" pintype="output"/>
+    </net>
+    <net code="39" name="/INDEX_5">
+      <node ref="M5" pin="17" pinfunction="INDEX" pintype="output"/>
+    </net>
+    <net code="40" name="/INDEX_6">
+      <node ref="M6" pin="17" pinfunction="INDEX" pintype="output"/>
+    </net>
+    <net code="41" name="/M11">
+      <node ref="JM1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M1" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="42" name="/M12">
+      <node ref="JM1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M1" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="43" name="/M13">
+      <node ref="JM1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="44" name="/M14">
+      <node ref="JM1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M1" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="45" name="/M21">
+      <node ref="JM2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M2" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="46" name="/M22">
+      <node ref="JM2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M2" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="47" name="/M23">
+      <node ref="JM2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M2" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="48" name="/M24">
+      <node ref="JM2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M2" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="49" name="/M31">
+      <node ref="JM3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M3" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="50" name="/M32">
+      <node ref="JM3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M3" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="51" name="/M33">
+      <node ref="JM3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M3" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="52" name="/M34">
+      <node ref="JM3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M3" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="53" name="/M41">
+      <node ref="JM4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M4" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="54" name="/M42">
+      <node ref="JM4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M4" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="55" name="/M43">
+      <node ref="JM4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M4" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="56" name="/M44">
+      <node ref="JM4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M4" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="57" name="/M51">
+      <node ref="JM5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M5" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="58" name="/M52">
+      <node ref="JM5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M5" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="59" name="/M53">
+      <node ref="JM5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M5" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="60" name="/M54">
+      <node ref="JM5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M5" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="61" name="/M61">
+      <node ref="JM6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="M6" pin="4" pinfunction="M1A" pintype="output"/>
+    </net>
+    <net code="62" name="/M62">
+      <node ref="JM6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="M6" pin="5" pinfunction="M2A" pintype="output"/>
+    </net>
+    <net code="63" name="/M63">
+      <node ref="JM6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="M6" pin="3" pinfunction="M1B" pintype="output"/>
+    </net>
+    <net code="64" name="/M64">
+      <node ref="JM6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="M6" pin="6" pinfunction="M2B" pintype="output"/>
+    </net>
+    <net code="65" name="/MISO">
+      <node ref="FPC1" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="J1_18" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="/MOSI">
+      <node ref="FPC1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="/MOSI_1">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="J1_17" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="/MS1_M0">
+      <node ref="M1" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="M2" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="M3" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="M4" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="M5" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="M6" pin="15" pinfunction="MS1" pintype="input"/>
+      <node ref="R19" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="69" name="/MS2_M1">
+      <node ref="M1" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="M2" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="M3" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="M4" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="M5" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="M6" pin="14" pinfunction="MS2" pintype="input"/>
+      <node ref="R18" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="70" name="/P5">
+      <node ref="M6" pin="10" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="J1_4" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="/P6">
+      <node ref="M6" pin="9" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="J1_5" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="/P7">
+      <node ref="M5" pin="10" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="J1_6" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="/P8">
+      <node ref="M5" pin="9" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="J1_7" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="/P9">
+      <node ref="M4" pin="10" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="J1_8" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="/P10">
+      <node ref="M4" pin="9" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="J1_9" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="/P11">
+      <node ref="M1" pin="10" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="J1_10" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="/P12">
+      <node ref="M1" pin="9" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="J1_11" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="/P13">
+      <node ref="M2" pin="10" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="J1_13" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="/P14">
+      <node ref="M2" pin="9" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="J1_14" pinfunction="GPIO46" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="/P15">
+      <node ref="M3" pin="10" pinfunction="STEP" pintype="input"/>
+      <node ref="U3" pin="J1_16" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="/P16">
+      <node ref="M3" pin="9" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="J1_20" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="/RX_M2">
+      <node ref="M1" pin="13" pinfunction="SPRD" pintype="input"/>
+      <node ref="M2" pin="13" pinfunction="SPRD" pintype="input"/>
+      <node ref="M3" pin="13" pinfunction="SPRD" pintype="input"/>
+      <node ref="M4" pin="13" pinfunction="SPRD" pintype="input"/>
+      <node ref="M5" pin="13" pinfunction="SPRD" pintype="input"/>
+      <node ref="M6" pin="13" pinfunction="SPRD" pintype="input"/>
+      <node ref="R17" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="83" name="/SCL">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U3" pin="J1_15" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="/SDA">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U3" pin="J1_12" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="/SW">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U1" pin="6" pinfunction="SW" pintype="unspecified"/>
+    </net>
+    <net code="86" name="/Servo">
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="J3_2" pinfunction="U0TXD/GPIO43" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="/Spare_1">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="J3_3" pinfunction="U0RXD/GPIO44" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="/TMC_EN_1">
+      <node ref="M1" pin="16" pinfunction="~{EN}" pintype="input"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J3_4" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="/TMC_EN_2">
+      <node ref="M2" pin="16" pinfunction="~{EN}" pintype="input"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J3_5" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="/TMC_EN_3">
+      <node ref="M3" pin="16" pinfunction="~{EN}" pintype="input"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J3_6" pinfunction="MTMS/GPIO42" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="/TMC_EN_4">
+      <node ref="M4" pin="16" pinfunction="~{EN}" pintype="input"/>
+      <node ref="R12" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J3_7" pinfunction="MTDI/GPIO41" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="/TMC_EN_5">
+      <node ref="M5" pin="16" pinfunction="~{EN}" pintype="input"/>
+      <node ref="R13" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J3_8" pinfunction="MTDO/GPIO40" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="/TMC_EN_6">
+      <node ref="M6" pin="16" pinfunction="~{EN}" pintype="input"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U3" pin="J3_9" pinfunction="MTCK/GPIO39" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="/TX_Reset">
+      <node ref="M1" pin="12" pinfunction="UART" pintype="bidirectional"/>
+      <node ref="M2" pin="12" pinfunction="UART" pintype="bidirectional"/>
+      <node ref="M3" pin="12" pinfunction="UART" pintype="bidirectional"/>
+      <node ref="M4" pin="12" pinfunction="UART" pintype="bidirectional"/>
+      <node ref="M5" pin="12" pinfunction="UART" pintype="bidirectional"/>
+      <node ref="M6" pin="12" pinfunction="UART" pintype="bidirectional"/>
+      <node ref="R16" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="95" name="/USB_D+">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="J3_19" pinfunction="USB_D+/GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="/USB_D-">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="J3_20" pinfunction="USB_D-/GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="/VDD_Fault">
+      <node ref="M1" pin="2" pinfunction="VIO" pintype="power_in"/>
+      <node ref="M2" pin="2" pinfunction="VIO" pintype="power_in"/>
+      <node ref="M3" pin="2" pinfunction="VIO" pintype="power_in"/>
+      <node ref="M4" pin="2" pinfunction="VIO" pintype="power_in"/>
+      <node ref="M5" pin="2" pinfunction="VIO" pintype="power_in"/>
+      <node ref="M6" pin="2" pinfunction="VIO" pintype="power_in"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="SW1" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="98" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="C15" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C17" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="C18" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="C19" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C20" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="FPC1" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="FPC1" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="FPC1" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="bidirectional"/>
+      <node ref="M1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="M1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="M2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="M2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="M3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="M3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="M4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="M4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="M5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="M5" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="M6" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="M6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q1" pin="1" pinfunction="M1" pintype="unspecified"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="SW1" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="SW1" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="SW1" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="SW1" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="SW1" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="SW1" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U10" pin="2" pinfunction="K" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="K" pintype="unspecified"/>
+      <node ref="U3" pin="J1_22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="J3_1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="J3_21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="J3_22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="P$2" pinfunction="-" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="K" pintype="unspecified"/>
+      <node ref="U6" pin="2" pinfunction="K" pintype="unspecified"/>
+      <node ref="U7" pin="2" pinfunction="K" pintype="unspecified"/>
+      <node ref="U8" pin="2" pinfunction="K" pintype="unspecified"/>
+      <node ref="U9" pin="2" pinfunction="K" pintype="unspecified"/>
+    </net>
+    <net code="99" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="unspecified"/>
+      <node ref="Q1" pin="3" pinfunction="G" pintype="unspecified"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(JP2-Pad1)">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(JP3-Pad1)">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="104" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="105" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="106" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="107" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U9" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="108" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U10" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="109" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="A" pintype="unspecified"/>
+    </net>
+    <net code="110" name="unconnected-(U3-PadJ1_3)">
+      <node ref="U3" pin="J1_3" pinfunction="RST" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
