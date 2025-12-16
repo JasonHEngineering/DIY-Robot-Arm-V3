@@ -1,3 +1,9 @@
-# DIY-Robot-Arm-V3 (Work in progress)
+# User Interface hosted in Raspberry Pi 3/4 (Work in progress)
 
-![CAD gif](https://github.com/user-attachments/assets/68445644-b150-489c-8ad1-3b401d85ff38)
+Plotly Dash App - written in Python. 3 main pages.
+
+Page 1 - "Angles"
+To control robotic arm by angle entries.
+
+<img width="561" height="845" alt="image" src="https://github.com/user-attachments/assets/5d765f10-ae3d-44c5-bcf7-5f5be5c4e0ae" />
+
