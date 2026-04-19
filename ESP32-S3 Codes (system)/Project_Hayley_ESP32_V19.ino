@@ -55,6 +55,7 @@ V19 - Cleanup, including fixing USB-serial cannot detect bug
 
 #include "driver/gpio.h"
 #include "soc/gpio_struct.h"
+#include "esp_task_wdt.h"
 
 /*PINS
    Arduino SPI pins
@@ -81,14 +82,16 @@ V19 - Cleanup, including fixing USB-serial cannot detect bug
 // #define motor_acceleration 80000.0 // 3-Jan-26
 
 // Define spped for non accelstepper.h method
-#define LAUNCH_SPEED        4000.0f   // 16-Apr-26
-#define FULL_SPEED          32000.0f  // 16-Apr-26
-#define LAUNCH_STEPS        800       // 16-Apr-26
+//#define LAUNCH_SPEED        4000.0f   // 16-Apr-26
+//#define FULL_SPEED          32000.0f  // 16-Apr-26
+#define LAUNCH_SPEED        1000.0f   // 18-Apr-26
+#define FULL_SPEED          1000.0f  // 18-Apr-26
+#define LAUNCH_STEPS        0       // 19-Apr-26
 #define LAUNCH_INTERVAL_US  ((unsigned long)(1000000.0f / LAUNCH_SPEED))  // 250 µs
 #define FULL_INTERVAL_US    ((unsigned long)(1000000.0f / FULL_SPEED))    //  31 µs
 
 
-#define SERVO_GPIO 20 // this is actually using USB D+ pin
+#define SERVO_GPIO 38 // 20 is actually using USB D+ pin
 
 mcpwm_cmpr_handle_t comparator;
 mcpwm_oper_handle_t oper;
@@ -110,7 +113,7 @@ long prevError[no_of_steppers] = {0};
 long error[no_of_steppers] = {0};
 
 // ----- Shared feedback data -----
-volatile long targetSteps[no_of_steppers];
+volatile float targetSteps[no_of_steppers];
 SemaphoreHandle_t feedbackMutex;
       //   // Serial.print("Axis ");
       //   // Serial.print(x);
@@ -120,6 +123,7 @@ SemaphoreHandle_t feedbackMutex;
       //   // Serial.println(targetSteps[x]);
 // Motor driver settings
 const float micro_steps[no_of_steppers] = {8.0, 8.0, 8.0, 8.0, 8.0, 8.0}; 
+//const float micro_steps[no_of_steppers] = {16.0, 16.0, 16.0, 16.0, 16.0, 16.0}; 
 const float gear_reduction[no_of_steppers] = {30.0, -30.0, -30.0, 30.0, -30.0, -1.0}; // -ve sign to flip direction of physical motor
 const float steps_per_rotation[no_of_steppers] = {200.0, 200.0, 200.0, 200.0, 200.0, 200.0}; 
 const int magnet_direction[no_of_steppers] = {-1, 1, 1, -1, 1, 1}; //magnet direction 
@@ -127,13 +131,14 @@ const int stepper_pins[no_of_steppers] = {17, 3, 10, 15, 6, 4}; //stepper pin id
 const int stepper_direction[no_of_steppers] = {18, 46, 14, 16, 7, 5}; //stepper direction id
 const int stepper_enable[no_of_steppers] = {1, 2, 42, 41, 40, 39}; //stepper enable - GND/low to enable
 const byte axis_angle_pins[no_of_steppers] = {21, 47, 48, 45, 35, 36}; //CS pins for 6 encoders + 1 spare (sprare is GPIO 36)
-const int steps_error_limit[no_of_steppers] = {40, 40, 40, 40, 40, 8}; // set microstep tolerance limit allow by PID that will mark the target as complete
+//const int steps_error_limit[no_of_steppers] = {40, 40, 40, 40, 40, 8}; // set microstep tolerance limit allow by PID that will mark the target as complete
+int steps_error_limit[no_of_steppers] = {120, 120, 120, 120, 120, 8}; // set microstep tolerance limit allow by PID that will mark the target as complete
 
 //  Pin mask table
 static uint32_t stepMasks[no_of_steppers];
 
 // Encoder reading settings
-const int windowSize = 10; // Adjust the window size based on your requirements
+const int windowSize = 5; // Adjust the window size based on your requirements
 float sensorValues[no_of_steppers][windowSize];
 float axis_degAngle[no_of_steppers] = {0, 0, 0, 0, 0, 0}; //Angle in degrees
 float accepted_axis_degAngle[no_of_steppers] = {0, 0, 0, 0, 0, 0}; //Angle in degrees
@@ -183,9 +188,10 @@ struct Motor {
 static Motor motors[no_of_steppers];
 
 //  Active move globals
-static long masterSteps = 0;
-static long masterDone  = 0;
-static bool moveActive  = false;
+static volatile bool moveComplete = false;
+static volatile bool moveActive   = false;
+static volatile long masterSteps  = 0;
+static volatile long masterDone   = 0;
 
 //struct motor_steps 
 // struct {
@@ -261,12 +267,9 @@ bool runMove() {
   masterDone++;
 
   uint32_t batchMask = 0;
-
   for (int i = 0; i < no_of_steppers; i++) {
     if (motors[i].stepsDone >= motors[i].absTarget) continue;
-
     motors[i].bresenham += motors[i].absTarget;
-
     if (motors[i].bresenham >= masterSteps) {
       motors[i].bresenham -= masterSteps;
       motors[i].stepsDone++;
@@ -277,8 +280,9 @@ bool runMove() {
   pulseStepMulti(batchMask);
 
   if (masterDone >= masterSteps) {
-    moveActive = false;
-    Serial.println("Move complete.");
+    moveActive   = false;
+    moveComplete = true;
+    // Serial.println removed — Serial inside step loop blocks timing
     return false;
   }
 
@@ -322,178 +326,108 @@ void taskCore0(void *parameter) {
 // ----- Core 1 Task: Stepper motion + PID closed loop -----
 void taskCore1(void *parameter) {
 
-
-
-  for (int i = 0; i <= (no_of_steppers-1); i++) {
-    pinMode(stepper_enable[i], OUTPUT); //TMC2209 enable - GND/low to enable
+  // Pin setup
+  for (int i = 0; i <= (no_of_steppers - 1); i++) {
+    pinMode(stepper_enable[i], OUTPUT);   //TMC2209 enable - GND/low to enable
     digitalWrite(stepper_enable[i], LOW); // Set the pin to LOW - GND/low to enable
-    //steppers[i] = new AccelStepper(motorInterfaceType, stepper_pins[i], stepper_direction[i]);
   }
-
-  // for (int x = 0; x <= (no_of_steppers-1); x++) {
-  //   if (steppers[x]) {
-  //       steppers[x]->setMaxSpeed(max_speed); //steps per second
-  //       steppers[x]->setAcceleration(motor_acceleration); //desired acceleration in steps per second per second
-  //       // steppers[x]->setSpeed(max_speed); //steps per second
-  //   }
-  // }
-
   for (int i = 0; i < no_of_steppers; i++) {
     stepMasks[i] = (1UL << stepper_pins[i]);
     gpio_set_direction((gpio_num_t)stepper_pins[i], GPIO_MODE_OUTPUT);
     pinMode(stepper_direction[i], OUTPUT);
   }
 
+  esp_task_wdt_delete(NULL);   // timing-critical task — no watchdog
+
   while (true) {
-    // PID outer loop to compute correction
+
+    // Wait for new target from queue
     if (xQueueReceive(jointQueue, &converter.valueReading, portMAX_DELAY) == pdTRUE) {
 
-      // //bool speed_flag[no_of_steppers] = {false};
-      
-      // // Load target positions
-      // xSemaphoreTake(feedbackMutex, portMAX_DELAY);
-      // for (int x = 0; x <= (no_of_steppers-1); x++) {
-      //   targetSteps[x] = converter.valueReading[x];
-      //   integral[x] = 0;
-      //   prevError[x] = 0;
-      // }
-      // xSemaphoreGive(feedbackMutex);
+      bool isLastItem = false;
+      UBaseType_t remaining = uxQueueMessagesWaiting(jointQueue);
+      isLastItem = (remaining == 0);
 
-      // // Execute until all joints reach target
-      // bool reachedAll = false;
-      // while (!reachedAll) {
+      if (isLastItem) {
+          Serial.println("This is the last item in the queue.");
+          steps_error_limit[0] = 40; // tighten error at the last robotic step only
+          steps_error_limit[1] = 40; // tighten error at the last robotic step only
+          steps_error_limit[2] = 40; // tighten error at the last robotic step only         
+          steps_error_limit[3] = 40; // tighten error at the last robotic step only
+          steps_error_limit[4] = 40; // tighten error at the last robotic step only
+          steps_error_limit[5] = 8; // tighten error at the last robotic step only   
+      }
+      else {
+        //steps_error_limit[no_of_steppers] = {120, 120, 120, 120, 120, 24}; // otherwise loose
+        steps_error_limit[0] = 120; // tighten error at the last robotic step only
+        steps_error_limit[1] = 120; // tighten error at the last robotic step only
+        steps_error_limit[2] = 120; // tighten error at the last robotic step only         
+        steps_error_limit[3] = 120; // tighten error at the last robotic step only
+        steps_error_limit[4] = 120; // tighten error at the last robotic step only
+        steps_error_limit[5] = 24; // tighten error at the last robotic step only   
+      }
 
-      // for (int x = 0; x <= (no_of_steppers-1); x++) {
-      //   long actual = encoder.angles_array[x];
-      //   long target = targetSteps[x];
+      // --- Compute initial error ---
+      xSemaphoreTake(feedbackMutex, portMAX_DELAY);
+      for (int x = 0; x < no_of_steppers; x++) {
+        targetSteps[x]  = converter.valueReading[x];
+        float actual     = encoder.angles_array[x];
+        float error_angle = (float)targetSteps[x] - actual;
+        error[x] = round(error_angle / (360.0 / steps_per_rotation[x])
+                         * gear_reduction[x] * micro_steps[x]);
 
-      //   long error_angle = target - actual;
+        // Debug print — add temporarily to diagnose
+        Serial.print("Axis "); Serial.print(x);
+        Serial.print("  target: ");    Serial.print(targetSteps[x]);
+        Serial.print("  actual: ");    Serial.print(actual);
+        Serial.print("  err_steps: "); Serial.println(error[x]);
+      }
+      xSemaphoreGive(feedbackMutex);
 
-      //   // convert error in angle to error in steps
-      //   error[x] = round(error_angle/(360.0/steps_per_rotation[x]) * gear_reduction[x] * micro_steps[x] );
-      // }
-
-      // if (allWithinRange(error)) {
-      //     reachedAll = true;
-      // }
-
-      // for (int x = 0; x <= (no_of_steppers-1); x++) {
-      //   xSemaphoreTake(feedbackMutex, portMAX_DELAY);
-
-      //   integral[x] += error[x];
-      //   long derivative = error[x] - prevError[x];
-      //   prevError[x] = error[x];
-
-      //   correction[x] = (Kp[x] * error[x]) + (Ki[x] * integral[x]) + (Kd[x] * derivative);
-      //   if (x == 5) correction[x] = error[x]*0.5;
-      //   xSemaphoreGive(feedbackMutex);
-
-      //   steppers[x]->move(correction[x]);      
-
-
-      //   // Serial.print("Axis ");
-      //   // Serial.print(x);
-      //   // Serial.print(" actual: ");
-      //   // Serial.println(encoder.angles_array[x]);
-      //   // Serial.print(" target: ");
-      //   // Serial.println(targetSteps[x]);
-      //   // Serial.print(" time_travel: ");
-      //   // Serial.println(time_travel[x]);
-      //   // Serial.print(" correction[x]: ");
-      //   // Serial.println(correction[x]);
-      //   // if (x == 5) {
-      //   //   Serial.print(x);
-      //   //   Serial.print(" correction[x]: ");
-      //   //   Serial.println(correction[x]);
-      //   // }
-
-      //   if (x == 5) vTaskDelay(1 / portTICK_PERIOD_MS); // only for axis 6, delay is needed 
-      // }
-
-      // // for (int x = 0; x <= (no_of_steppers-1); x++) {
-      // //   while (speed_flag[x]!= true) {
-      // //     float set_speed = correction[x]/time_travel[x];
-      // //     if ((set_speed < speed_for_LERP) && (set_speed > -speed_for_LERP)) {
-      // //       speed_flag[x] = true;}
-      // //     else {
-      // //       time_travel[x]+=0.01; //add time travel allowed
-      // //     }  
-      // //   }
-      // // }
-
-      // // float max_time_travel = maxValue(time_travel);
-
-      // // for (int x = 0; x <= (no_of_steppers-1); x++) {
-
-      // //   float set_speed = correction[x]/max_time_travel;
-      // //   // steppers[x]->setMaxSpeed(set_speed); //steps per second
-      // //   steppers[x]->setSpeed(set_speed); //steps per second
-      // //   speed_flag[x] = false; //reset
-      // //   time_travel[x] = 0.01; //reset
-      // // }
-
-      // for (int x = 0; x <= (no_of_steppers-1); x++) {
-      //   steppers[x]->run();
-      //   // steppers[x]->runSpeedToPosition();
-      // }
-      // vTaskDelay(1); // ← yield every iteration, feeds watchdog
-      // }
-
-    // update here for not using accelstepper functions
-    // Load target positions
-    xSemaphoreTake(feedbackMutex, portMAX_DELAY);
-    for (int x = 0; x <= (no_of_steppers-1); x++) {
-      targetSteps[x] = converter.valueReading[x]; // target angles deg
-      long actual = encoder.angles_array[x];  // current encoder angles deg
-      long target = targetSteps[x];
-      long error_angle = target - actual;
-
-      // convert error in angle to error in steps
-      error[x] = round(error_angle/(360.0/steps_per_rotation[x]) * gear_reduction[x] * micro_steps[x] );
-
-      Serial.print("Axis ");
-      Serial.print(x);
-      Serial.print(" actual: ");
-      Serial.println(encoder.angles_array[x]);
-      Serial.print(" target: ");
-      Serial.println(targetSteps[x]);
-      Serial.print(" error_angle: ");
-      Serial.println(error_angle);
-      Serial.print(" error_steps: ");
-      Serial.println(error[x]);
-
-    }
-    xSemaphoreGive(feedbackMutex);
-
-    if (!runMove()) {
-      //delay(500);
-      vTaskDelay(pdMS_TO_TICKS(500));
-      //for (int i = 0; i < no_of_steppers; i++)
+      // --- Start first move ---
       startMove(error);
+
+      // --- Run until all joints within range ---
+      bool reachedAll = false;
+      while (!reachedAll) {
+
+        runMove();   // call as fast as possible — no delay here
+
+        if (moveComplete) {
+          moveComplete = false;   // acknowledge
+          Serial.println("Move complete.");   // serial is safe here
+
+          // Recalculate error from fresh encoder readings
+          xSemaphoreTake(feedbackMutex, portMAX_DELAY);
+          for (int x = 0; x < no_of_steppers; x++) {
+            float actual      = encoder.angles_array[x];
+            float error_angle = (float)targetSteps[x] - actual;
+            error[x] = round(error_angle / (360.0 / steps_per_rotation[x])
+                             * gear_reduction[x] * micro_steps[x]);
+          }
+          xSemaphoreGive(feedbackMutex);
+
+          // Check if we are close enough to stop
+          if (allWithinRange(error)) {
+            reachedAll = true;
+          } else {
+            startMove(error);   // correction move with fresh error
+          }
+        }
+      }
+
+      // --- Claw servo control ---
+      if (converter.valueReading[6] == 0.0) {
+        setServoUs(900);
+        vTaskDelay(pdMS_TO_TICKS(500));
+      } else if (converter.valueReading[6] == 1.0) {
+        setServoUs(1250);
+        vTaskDelay(pdMS_TO_TICKS(500));
+      }
     }
-
-  }
-
-  if (converter.valueReading[6] == 0.0) {
-    setServoUs(900);  // 0°    - claw open
-    vTaskDelay(pdMS_TO_TICKS(500)); // ← correct
-  }
-
-  if (converter.valueReading[6] == 1.0) {
-    setServoUs(1250);  // 90°  - claw partially close
-    vTaskDelay(pdMS_TO_TICKS(500)); // ← correct
-  }
-
-  // other values - do nothing 
-
-  // setServoUs(900);  // 0°    - claw open
-  // delay(500);
-
-  // setServoUs(1300);  // 90°  - claw partially close
-  // delay(500);
-  vTaskDelay(1);
   }
 }
+
 
 // ----- Launch tasks on ESP32-S3 cores -----
 TaskHandle_t handleCore0;
@@ -516,10 +450,6 @@ void setup() {
 
   jointQueue = xQueueCreate(100, sizeof(converter.valueReading));
   assert(jointQueue); // optional check to crash early if creation fails
-
-  xTaskCreatePinnedToCore(taskCore0, "Core0_Encoders_I2C", 32768, NULL, 2, &handleCore0, 0);
-  xTaskCreatePinnedToCore(taskCore1, "Core1_Steppers_PID", 32768, NULL, 2, &handleCore1, 1);
-  vTaskDelete(NULL);
 
   // This section below sre settings for servo
   // 1 MHz timer resolution
@@ -565,6 +495,10 @@ void setup() {
 
   // Center servo
   setServoUs(1250);
+
+  xTaskCreatePinnedToCore(taskCore0, "Core0_Encoders_I2C", 32768, NULL, 2, &handleCore0, 0);
+  xTaskCreatePinnedToCore(taskCore1, "Core1_Steppers_PID", 32768, NULL, 2, &handleCore1, 1);
+  vTaskDelete(NULL);
 
 }
 
