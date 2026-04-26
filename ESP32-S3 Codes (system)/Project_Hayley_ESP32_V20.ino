@@ -44,6 +44,7 @@ V18 - Added magnet_direction[i] to reflect magnet direction. recap motor directi
 V19 - Cleanup, including fixing USB-serial cannot detect bug 
     - Replaced <AccelStepper.h> with direct register access
     - Compatible with "Project_Hayley_V5_IK_user_interface_V06.py"
+V20 - Added ESP-NOW communication protocol for use with PS controller
     - Added safety angle limits motor cut-off
     - Compatible with "Project_Hayley_V5_IK_user_interface_V07.py"
 
