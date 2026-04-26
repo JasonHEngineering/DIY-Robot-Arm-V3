@@ -234,7 +234,7 @@ const int stepper_direction[no_of_steppers] = {18, 46, 14, 16, 7, 5}; //stepper 
 const int stepper_enable[no_of_steppers] = {1, 2, 42, 41, 40, 39}; //stepper enable - GND/low to enable
 const byte axis_angle_pins[no_of_steppers] = {21, 47, 48, 45, 35, 36}; //CS pins for 6 encoders + 1 spare (sprare is GPIO 36)
 //const int steps_error_limit[no_of_steppers] = {40, 40, 40, 40, 40, 8}; // set microstep tolerance limit allow by PID that will mark the target as complete
-int steps_error_limit[no_of_steppers] = {120, 120, 120, 120, 120, 8}; // set microstep tolerance limit allow by PID that will mark the target as complete
+int steps_error_limit[no_of_steppers] = {40, 40, 40, 40, 40, 8}; // set microstep tolerance limit allow by PID that will mark the target as complete
 
 //  Pin mask table
 static uint32_t stepMasks[no_of_steppers];
@@ -344,6 +344,9 @@ void startMove(long targets[no_of_steppers]) {
   masterSteps = 0;
 
   for (int i = 0; i < no_of_steppers; i++) {
+
+    //axisState[i].active     = true;
+
     motors[i].absTarget = abs(targets[i]);
     motors[i].stepsDone = 0;
     motors[i].bresenham = 0;
@@ -758,6 +761,32 @@ while (true) {
       else if (rxData.buttons & 0x0002) setAxisVelocity(5, AXIS_MIN_SPEED[5], true);   // up   = forward
       else if (rxData.buttons & 0x0004) setAxisVelocity(5, AXIS_MIN_SPEED[5], false);  // down = reverse
       else                       setAxisVelocity(5, 0.0f, true);         // stop
+
+      // --- Homing ---
+      if (rxData.misc & 0x05) {
+
+        for (int x = 0; x < no_of_steppers; x++) {
+          float error_angle = encoder.angles_array[x];
+          error[x] = round(error_angle / (360.0 / steps_per_rotation[x])
+                          * gear_reduction[x] * micro_steps[x]);
+
+          if (std::abs(error[x]) < steps_error_limit[x]) continue; 
+          setAxisVelocity(x, AXIS_MAX_SPEED[x], (error[x] < 0) ? true:false);
+        }
+
+
+        // // --- Compute initial error ---
+        // xSemaphoreTake(feedbackMutex, portMAX_DELAY);
+        // for (int x = 0; x < no_of_steppers; x++) {
+        //   float error_angle = -(encoder.angles_array[x]);
+        //   error[x] = round(error_angle / (360.0 / steps_per_rotation[x])
+        //                   * gear_reduction[x] * micro_steps[x]);
+        // }
+        // xSemaphoreGive(feedbackMutex);
+
+        // // --- Start first move ---
+        // startMove(error);
+      }
 
       // // --- Axis 5 — dpad up/down ---
       // if      (rxData.dpad & 0x02) setAxisVelocity(4, DPAD_SPEED_FAST, true);   // right = forward
