@@ -46,7 +46,7 @@ V19 - Cleanup, including fixing USB-serial cannot detect bug
     - Compatible with "Project_Hayley_V5_IK_user_interface_V06.py"
 V20 - Added ESP-NOW communication protocol for use with PS controller
     - Added safety angle limits motor cut-off
-    - Compatible with "Project_Hayley_V5_IK_user_interface_V07.py"
+    - Compatible with "Project_Hayley_V5_IK_user_interface_V08.py"
 
 */
 
@@ -294,8 +294,9 @@ union BytesToFloat {
 } converter;
 
 // float struct to store angles 
-struct {
-   float angles_array[no_of_steppers]; // unit: °
+struct __attribute__((packed)) {
+  float angles_array[no_of_steppers]; // unit: °
+  uint8_t status_flags;               // 1 byte
 } encoder; 
 
 
@@ -927,6 +928,8 @@ void setup() {
   Serial.println("I2C & SPI Ready!");
   delay(100);
 
+  // flags for stepper enable state and PS controller state
+  encoder.status_flags = 0b00000001;
   //startEspNow();
 
   feedbackMutex = xSemaphoreCreateMutex();
@@ -1019,6 +1022,8 @@ void receiveData(int byteCount){
     // Mode string to enable/disable stepper motors
     // -----------------------------
     case MSG_MODE_STRING: {
+    Serial.print("byteCount="); Serial.println(byteCount);
+    Serial.print("length byte="); Serial.println(length);
       char mode[32];
 
       for (int i = 0; i < length && i < 31; i++) {
@@ -1029,17 +1034,21 @@ void receiveData(int byteCount){
       Serial.print("Mode set to: ");
       Serial.println(mode);
 
+      // Serial.println(strcmp(mode, "enable_stepper"));   
+
       if (strcmp(mode, "disable_stepper") == 0) {
         // enable disable_stepper mode
         for (int i = 0; i <= (no_of_steppers-1); i++) {
           digitalWrite(stepper_enable[i], HIGH); // Set the pin to HIGH - HIGH to disable
         }
+        setStepperEnabled(false);
       }
       else if (strcmp(mode, "enable_stepper") == 0) {
         // enable enable_stepper mode
         for (int i = 0; i <= (no_of_steppers-1); i++) {
           digitalWrite(stepper_enable[i], LOW); // Set the pin to LOW - GND/low to enable
         }
+        setStepperEnabled(true);
       }
       break;
     }
@@ -1048,6 +1057,8 @@ void receiveData(int byteCount){
     // Mode string to enable/disable PS control
     // -----------------------------
     case MSG_PS_CONTROLLER: {
+    Serial.print("byteCount="); Serial.println(byteCount);
+    Serial.print("length byte="); Serial.println(length);
       char mode[32];
 
       for (int i = 0; i < length && i < 31; i++) {
@@ -1058,17 +1069,19 @@ void receiveData(int byteCount){
       Serial.print("Mode set to: ");
       Serial.println(mode);
 
+      // Serial.println(strcmp(mode, "enable_PS_control"));   
+
       if (strcmp(mode, "enable_PS_control") == 0) {
         // enable PS_control mode
         Serial.print("Enabling PS control mode");
         startEspNow();
-
+        setPsEnabled(true);
       }
       else if (strcmp(mode, "disable_PS_control") == 0) {
         // disable PS_control mode
         Serial.print("Disabling PS control mode");
         stopEspNow();
-        
+        setPsEnabled(false);        
       }
       break;
     }
@@ -1081,9 +1094,23 @@ void receiveData(int byteCount){
 
 }
 
+void setStepperEnabled(bool enabled) {
+    if (enabled)
+        encoder.status_flags |= (1 << 0);   // set bit 0
+    else
+        encoder.status_flags &= ~(1 << 0);  // clear bit 0
+}
+
+void setPsEnabled(bool enabled) {
+    if (enabled)
+        encoder.status_flags |= (1 << 1);   // set bit 1
+    else
+        encoder.status_flags &= ~(1 << 1);  // clear bit 1
+}
+
 // test reference from https://stackoverflow.com/questions/40196733/how-to-pass-arduino-struct-to-raspberry-pi-via-i2c
 void sendEncoderData(){
-  Wire.write((byte *)&encoder, sizeof(encoder));
+  Wire.write((byte *)&encoder, sizeof(encoder)); // 24 bytes floating + 1 = 25 bytes 
 }
 
 
