@@ -98,6 +98,7 @@ ESP32_IOT = 0x05
 MSG_STEPPER_ARRAY = 0x01 # define mode to send angles over I2C 
 MSG_MODE_STRING   = 0x02 # define mode to send stepper mode over I2C
 MSG_PS_CONTROLLER   = 0x03 # define mode to send PS controller mode over I2C
+MSG_SPEED   = 0x04 # define mode to send speed mode over I2C
 
 # initialize serial commumication
 bus = smbus.SMBus(1)
@@ -218,11 +219,13 @@ local_linkage_data = [
     [5,-90,0,0,0],     #24 - Z left, X front
     [5,0,0,-47,0],    #25
     [5,0,0,0,0], #theta_5 - Axis5, down with positive theta #25
-    [6,0,0,0,93],    #27
+    # [6,0,0,0,93],    #27
+    [6,0,0,0,135],    #27
     [6,-90,0,0,0],     #28 - Z left, X up
     [6,0,-90,0,0],     #29 - Z front, X up    
     [6,0,0,0,0], #theta_6 - Axis6, anti-clockwise with positive theta #30
-    [7,0,0,17.5,0], # dummy 17.5 mm extension #31
+    # [7,0,0,17.5,0], # dummy 17.5 mm extension #31
+    [7,0,0,0,12], #31
     [7,0,90,0,0], #32 - Z left, X up
     [7,90,0,0,0], #33 - Z left, X front
     [7,0,90,0,0], #34 - Z up, X front    
@@ -845,6 +848,7 @@ def display_page(value):
             
                 dcc.Store(id="toggle-state", storage_type="local", data=False),
                 dcc.Store(id="toggle_state_PS_control", storage_type="local", data=False),
+                dcc.Store(id="toggle_state_speed", storage_type="local", data=False),
                 
                 dbc.Button(
                     "OFF Stepper",
@@ -861,10 +865,21 @@ def display_page(value):
                     id="PS_control_toggle_btn",
                     color="success",
                     n_clicks=0,
+                    className="mb-3"  # ✅ adds clean space below
                 ),
                 
                 html.Br(),
 
+                dbc.Button(
+                    "High Speed",
+                    id="motor_speed_toggle_btn",
+                    color="success",
+                    n_clicks=0,
+                    className="mb-3"  # ✅ adds clean space below
+                ),
+                
+                html.Br(),
+                
                 html.Div([
                     html.B(id='target_coordinates',style={'color': 'grey', 'fontSize': 16}),
                 ], className='row'),
@@ -878,8 +893,13 @@ def display_page(value):
                 html.Div([
                     html.B(id='PS_control_state',style={'color': 'grey', 'fontSize': 16}),
                 ], className='row'),
+                
                 html.Br(),
-        
+                html.Div([
+                    html.B(id='speed_control_state',style={'color': 'grey', 'fontSize': 16}),
+                ], className='row'),
+                html.Br(),
+                
                 html.Div([
                 
                     html.Div(internal_layout_encoder, className='row'),
@@ -1420,8 +1440,6 @@ def update_encoder_every_2s(n):
     )
     
 
-
-
 @app.callback(
     dash.dependencies.Output("motor_state_toggle_btn", "children", allow_duplicate=True),
     dash.dependencies.Output("motor_state_toggle_btn", "color", allow_duplicate=True),
@@ -1458,6 +1476,24 @@ def toggle_PS_control(n, stored):
         send_mode_string("disable_PS_control", MSG_PS_CONTROLLER)
     return label, color, new_state
 
+@app.callback(
+    dash.dependencies.Output("motor_speed_toggle_btn", "children", allow_duplicate=True),
+    dash.dependencies.Output("motor_speed_toggle_btn", "color", allow_duplicate=True),
+    dash.dependencies.Output("toggle_state_speed", "data"),
+    dash.dependencies.Input("motor_speed_toggle_btn", "n_clicks"),
+    dash.dependencies.State("toggle_state_speed", "data"),
+    prevent_initial_call=True
+)
+def toggle_speed_control(n, stored):
+    new_state = not stored
+    if new_state:
+        label, color = "Low Speed", "secondary"
+        send_mode_string("set_low_speed", MSG_SPEED)
+    else:
+        label, color = "High Speed", "success"
+        send_mode_string("set_high_speed", MSG_SPEED)
+    return label, color, new_state
+
 
 
 
@@ -1483,6 +1519,17 @@ def load_PS_control(stored):
         stored = False  # fallback
     return ("OFF PS Controller", "secondary") if stored else ("ON PS Controller", "success")
 
+@app.callback(
+    dash.dependencies.Output("motor_speed_toggle_btn", "children"),
+    dash.dependencies.Output("motor_speed_toggle_btn", "color"),
+    dash.dependencies.Input("toggle_state_speed", "data"),
+    prevent_initial_call=False
+)
+def load_speed_control(stored):
+    if stored is None:
+        stored = False  # fallback
+    return ("High Speed", "secondary") if stored else ("Low Speed", "success")
+
 
 
 @app.callback(
@@ -1505,6 +1552,15 @@ def sync_PS_state_from_label(PS_label):
         return dash.no_update
     return "Enabled" in PS_label
 
+@app.callback(
+    dash.dependencies.Output("toggle_state_speed", "data", allow_duplicate=True),
+    dash.dependencies.Input("speed_control_state", "children"),
+    prevent_initial_call=True
+)
+def sync_speed_state_from_label(speed_label):
+    if speed_label is None:
+        return dash.no_update
+    return "Enabled" in speed_label
 
 # # Toggle and save motor enable/disable state
 # @app.callback(

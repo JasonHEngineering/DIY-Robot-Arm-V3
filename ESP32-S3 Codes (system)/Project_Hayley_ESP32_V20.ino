@@ -78,6 +78,7 @@ V20 - Added ESP-NOW communication protocol for use with PS controller
 #define MSG_STEPPER_ARRAY 0x01
 #define MSG_MODE_STRING   0x02
 #define MSG_PS_CONTROLLER 0x03
+#define MSG_SPEED         0x04
 
 // Define motor interface type
 #define motorInterfaceType 1 //AccelStepper::DRIVER (1) means a stepper driver (with Step and Direction pins)
@@ -96,9 +97,12 @@ V20 - Added ESP-NOW communication protocol for use with PS controller
 #define LAUNCH_INTERVAL_US  ((unsigned long)(1000000.0f / LAUNCH_SPEED))  // 250 µs
 #define FULL_INTERVAL_US    ((unsigned long)(1000000.0f / FULL_SPEED))    //  31 µs
 
+#define HIGH_SPEED_RATIO 1.0
+#define LOW_SPEED_RATIO 0.2
 
 #define SERVO_GPIO 38 // 20 is actually using USB D+ pin
 
+static float speed_ratio = 1.0;
 
 // ============================================================
 //  6-axis independent motor control via ESP-NOW joystick
@@ -178,7 +182,7 @@ void setAxisVelocity(int axis, float speed, bool forward) {
     axisState[axis].active = false;
     return;
   }
-  axisState[axis].intervalUs = (unsigned long)(1000000.0f / speed);
+  axisState[axis].intervalUs = (unsigned long)(1000000.0f / (speed*speed_ratio));
   axisState[axis].forward    = forward;
   axisState[axis].active     = true;
 }
@@ -254,7 +258,8 @@ uint16_t command = 0b1111111111111111; //read command (0xFFF)
 
 // kinematically zeroed position 
 //const float start_axis_degAngle[no_of_steppers] = {-174.02, 121.2, 91.92, 104.86, 9.30, -3.96}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 20-Dec-25 - by estimation only
-const float start_axis_degAngle[no_of_steppers] = {-187.61, 121.91, 92.53, -106.88, 10.89, -4.71}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 2-Feb-26 - by using 3 mm pins
+//const float start_axis_degAngle[no_of_steppers] = {-187.61, 121.91, 92.53, -106.88, 10.89, -4.71}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 2-Feb-26 - by using 3 mm pins
+const float start_axis_degAngle[no_of_steppers] = {-187.61, 121.91, 92.53, -106.88, 10.89, 116.29}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 14-Jun-26 - axis 6 adjust for zero tablet pointer
 
 //define an array of stepper pointers. initialize the pointer to NULL (null pointer) for safety (see below)
 //AccelStepper *steppers[no_of_steppers] = {NULL, NULL, NULL, NULL, NULL, NULL};
@@ -568,6 +573,19 @@ void motorsStop() {
 
 
 
+// --- Claw servo control ---
+void openclaw() {
+  setServoUs(900);
+  vTaskDelay(pdMS_TO_TICKS(500));
+}
+
+void closeclaw() {
+  setServoUs(1250);
+  vTaskDelay(pdMS_TO_TICKS(500));
+}
+
+
+
 
 void read_angle_Register()
 {
@@ -596,7 +614,16 @@ void read_angle_Register()
     // Note: if getMovingAverage(i) == 360.00, it is likely to be false/no reading
     if ((axis_degAngle[i] != 0.00) && (getMovingAverage(i) != 0.00) && (getMovingAverage(i) != 360.00) && (getMovingAverage(i)<(axis_degAngle[i]+1.0)) && (getMovingAverage(i)>(axis_degAngle[i]-1.0))){
       accepted_axis_degAngle[i] = getMovingAverage(i)* magnet_direction[i];
-      encoder.angles_array[i] = fmod(((accepted_axis_degAngle[i]-start_axis_degAngle[i])+180.0),360.0)-180.0;
+
+      // V20
+      // encoder.angles_array[i] = fmod(((accepted_axis_degAngle[i]-start_axis_degAngle[i])+180.0),360.0)-180.0;
+
+      float delta = accepted_axis_degAngle[i] - start_axis_degAngle[i];
+      float wrapped = fmod(fmod(delta, 360.0) + 360.0, 360.0); // now in [0, 360)
+      if (wrapped > 180.0)
+          wrapped -= 360.0;                                      // fold to (-180, 180]
+      encoder.angles_array[i] = wrapped;
+
     }
   }
 }
@@ -732,6 +759,10 @@ while (true) {
       // float spd6 = mapAnalogToSpeed(rxData.ry, AXIS_MIN_SPEED[5], AXIS_MAX_SPEED[5]);
       // setAxisVelocity(5, spd6, rxData.ry >= 0);
 
+      // Serial.print("LX: "); Serial.print(rxData.lx);
+      // Serial.print(" LY: "); Serial.print(rxData.ly);
+      // Serial.print(" RX: "); Serial.print(rxData.rx);
+      // Serial.print(" RY: "); Serial.println(rxData.ry);
 
       // --- Axis 1 — rx ---
       float spd1 = mapAnalogToSpeed(rxData.rx, AXIS_MIN_SPEED[0], AXIS_MAX_SPEED[0]);
@@ -775,6 +806,13 @@ while (true) {
           setAxisVelocity(x, AXIS_MAX_SPEED[x], (error[x] < 0) ? true:false);
         }
 
+
+      // --- Claw servo control ---
+      if (rxData.buttons & 0x0080) {
+        openclaw(); 
+      } else if (rxData.buttons & 0x0040) {
+        closeclaw();
+      }
 
         // // --- Compute initial error ---
         // xSemaphoreTake(feedbackMutex, portMAX_DELAY);
@@ -900,13 +938,20 @@ while (true) {
       }
 
       // --- Claw servo control ---
+      // if (converter.valueReading[6] == 0.0) {
+      //   setServoUs(900);
+      //   vTaskDelay(pdMS_TO_TICKS(500));
+      // } else if (converter.valueReading[6] == 1.0) {
+      //   setServoUs(1250);
+      //   vTaskDelay(pdMS_TO_TICKS(500));
+      // }
+
       if (converter.valueReading[6] == 0.0) {
-        setServoUs(900);
-        vTaskDelay(pdMS_TO_TICKS(500));
+        openclaw(); 
       } else if (converter.valueReading[6] == 1.0) {
-        setServoUs(1250);
-        vTaskDelay(pdMS_TO_TICKS(500));
+        closeclaw();
       }
+
     }
   }
 }
@@ -934,7 +979,7 @@ void setup() {
 
   feedbackMutex = xSemaphoreCreateMutex();
 
-  jointQueue = xQueueCreate(100, sizeof(converter.valueReading));
+  jointQueue = xQueueCreate(200, sizeof(converter.valueReading));
   assert(jointQueue); // optional check to crash early if creation fails
 
   // This section below sre settings for servo
@@ -1087,6 +1132,38 @@ void receiveData(int byteCount){
     }
 
 
+    // -----------------------------
+    // Mode string to toggle motor speed
+    // -----------------------------
+    case MSG_SPEED: {
+    Serial.print("byteCount="); Serial.println(byteCount);
+    Serial.print("length byte="); Serial.println(length);
+      char mode[32];
+
+      for (int i = 0; i < length && i < 31; i++) {
+        mode[i] = Wire.read();
+      }
+      mode[length] = '\0';
+
+      Serial.print("Mode set to: ");
+      Serial.println(mode);
+
+      // Serial.println(strcmp(mode, "enable_PS_control"));   
+
+      if (strcmp(mode, "set_low_speed") == 0) {
+        // enable PS_control mode
+        Serial.print("Set to low speed");
+        speed_ratio = LOW_SPEED_RATIO;
+
+      }
+      else if (strcmp(mode, "set_high_speed") == 0) {
+        // disable PS_control mode
+        Serial.print("Set to high speed");
+        speed_ratio = HIGH_SPEED_RATIO;
+   
+      }
+      break;
+    }
 
     default:
     Serial.println("Unknown message type");
