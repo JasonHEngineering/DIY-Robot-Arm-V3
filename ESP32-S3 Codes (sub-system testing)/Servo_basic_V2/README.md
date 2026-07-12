@@ -1,6 +1,6 @@
-# Servo mechnism basic sanity check
+# Servo mechanism basic sanity check
 
-Code to sanity test if the Servo mechnism is working. 
+Code to sanity test if the Servo mechanism is working. 
 PWM pin used from ESP32-S3 is now GPIO38 (although it was originally with GPIO 43, which is not suitable due to Serial com)
 Servo in this case was a MG996R, wired with an independent 5V source (I was using a Mini 560 PRO).
 
