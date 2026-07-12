@@ -12,10 +12,10 @@
 
 | Parts | Est. Cost (SGD) | Link |
 |-------|----------------:|------|
-| CNC parts (including shipping cost) | 740 | |
-| 3d printed parts (including shipping cost) | 69 | |
-| Main PCBA (5x, including SMD assembly & shipping cost) | 158 | |
-| Encoder PCBA (10x, including SMD assembly & shipping cost) | 132 | |
+| CNC parts (including shipping cost) | 740 | [CAD file in GitHub](https://github.com/JasonHEngineering/DIY-Robot-Arm-V3/tree/main/CAD%20(2d%20%2B%20step%20files)) |
+| 3d printed parts (including shipping cost) | 69 | [CAD file in GitHub](https://github.com/JasonHEngineering/DIY-Robot-Arm-V3/tree/main/CAD%20(2d%20%2B%20step%20files)) |
+| Main PCBA (5x, including SMD assembly & shipping cost) | 158 | [Design files in GitHub](https://github.com/JasonHEngineering/DIY-Robot-Arm-V3/tree/main/PCBA%20(schema%2C%20gerbers%2C%20kicad%20project)) |
+| Encoder PCBA (10x, including SMD assembly & shipping cost) | 132 | [Design files in GitHub](https://github.com/JasonHEngineering/DIY-Robot-Arm-V3/tree/main/PCBA%20(schema%2C%20gerbers%2C%20kicad%20project)) |
 | Bearing 6805 2RS (25x37x7mm) (3x) | 16.07 | [AliExpress](https://s.click.aliexpress.com/e/_c33xzexj) |
 | Bearing lock nut M24x1.5x30x5 (3x) | 6.24 | [AliExpress](https://s.click.aliexpress.com/e/_c3OO3rFf) |
 | M3 set screw with nylon head | 4.84 | [AliExpress](https://s.click.aliexpress.com/e/_c3lDO1O5) |
