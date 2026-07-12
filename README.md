@@ -1,4 +1,7 @@
-# DIY-Robot-Arm-V3 (Work in progress)
+# DIY-Robot-Arm-V3 
+
+<img width="2876" height="1602" alt="cover_page" src="https://github.com/user-attachments/assets/4b8eae6c-b035-4496-bf8c-b49f25d950ef" />
+
 
 ![CAD gif](https://github.com/user-attachments/assets/68445644-b150-489c-8ad1-3b401d85ff38)
 
