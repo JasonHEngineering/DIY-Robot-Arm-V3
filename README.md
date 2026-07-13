@@ -29,7 +29,7 @@
 | Stepper motor 60mm model 17HS4023 (3x) | 25.29 | [AliExpress](https://s.click.aliexpress.com/e/_c4bld957) |
 | Stepper motor 60mm model 17HS3401S-SZ (1x) | 12.29 | [AliExpress](https://s.click.aliexpress.com/e/_c31tJidB) |
 | X17-30A harmonic reducer (30:1) (5x) | 338.00 | [AliExpress](https://s.click.aliexpress.com/e/_c3xNHvpT) |
-| Raspberry Pi 4B, 4GB | 160.00 | [DigiKey](https://www.digikey.sg/en/products/detail/raspberry-pi/SC0684/13530929) |
+| Raspberry Pi 4B, 4GB | 160.00 | [AliExpress](https://s.click.aliexpress.com/e/_c45i6ECJ) |
 | ESP32-S3-DevKitC-1 (n16r8) | 14.63 | [AliExpress](https://s.click.aliexpress.com/e/_c41bdQlh) |
 | Pins & connectors (22 pins) | 1.91 | [AliExpress](https://s.click.aliexpress.com/e/_c3fCAogH) |
 | TMC2209 V1.3 motor drivers (6x) | 24.13 | [AliExpress](https://s.click.aliexpress.com/e/_c4b6KFWH) |
