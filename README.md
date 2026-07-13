@@ -1,5 +1,7 @@
 # DIY-Robot-Arm-V3 
 
+Introduction - https://youtu.be/GQhKxkShxAY
+
 <img width="2876" height="1602" alt="cover_page" src="https://github.com/user-attachments/assets/4b8eae6c-b035-4496-bf8c-b49f25d950ef" />
 
 
