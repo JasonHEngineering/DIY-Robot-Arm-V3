@@ -1,11 +1,11 @@
 # Notes 
 
-1) Along with using with TMC2209 motor drivers, I have removed R8, R15, R16, R17, R18, R19 because the R value was accidentally too high. I have shorted R8, R16, R17, and left open R15, R18, R19.
+1) Although there are 7 jumper pads here for purpose of using these encoders in series with SPI protocol, however due to GPIO0 on ESP32-S3 being a bootstrap pin, I will not be using jumper JP5 on the absolute encoder board at all. Consequently, the remaining chip select jumper for all the 6 axis encoders are allocated as shown in the table, with the soldering done accordingly.
 
-<img width="2008" height="992" alt="image" src="https://github.com/user-attachments/assets/a7317916-9da4-4d96-8672-569101f01d96" />
+<!-- wp:image {"id":4006,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jashuang1983.wordpress.com/wp-content/uploads/2025/10/image-5.png?w=697" alt="" class="wp-image-4006"/></figure>
+<!-- /wp:image -->
 
-
-2) Servo is indeed GPIO 38 (J6 - pin 3), instead of the initial intent of GPIO 43 (J13 - pin 3), because the serial com line is always busy
-
-<img width="520" height="1074" alt="image" src="https://github.com/user-attachments/assets/0eeead01-d2f2-4095-9377-a0e2af0ca67e" />
-
+<!-- wp:image {"id":4002,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://jashuang1983.wordpress.com/wp-content/uploads/2025/10/image-3.png?w=1024" alt="" class="wp-image-4002"/></figure>
+<!-- /wp:image -->
