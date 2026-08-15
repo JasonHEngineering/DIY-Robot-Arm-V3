@@ -259,7 +259,8 @@ uint16_t command = 0b1111111111111111; //read command (0xFFF)
 // kinematically zeroed position 
 //const float start_axis_degAngle[no_of_steppers] = {-174.02, 121.2, 91.92, 104.86, 9.30, -3.96}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 20-Dec-25 - by estimation only
 //const float start_axis_degAngle[no_of_steppers] = {-187.61, 121.91, 92.53, -106.88, 10.89, -4.71}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 2-Feb-26 - by using 3 mm pins
-const float start_axis_degAngle[no_of_steppers] = {-187.61, 121.91, 92.53, -106.88, 10.89, 116.29}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 14-Jun-26 - axis 6 adjust for zero tablet pointer
+//const float start_axis_degAngle[no_of_steppers] = {-187.61, 121.91, 92.53, -106.88, 10.89, 116.29}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 14-Jun-26 - axis 6 adjust for zero tablet pointer
+const float start_axis_degAngle[no_of_steppers] = {-186.51, 121.91, 92.53, -106.00, 10.89, 116.29}; //Angle in degrees, encoder values when in kinematic zeroed horizontal position - 19-Jul-26 - manual compensation
 
 //define an array of stepper pointers. initialize the pointer to NULL (null pointer) for safety (see below)
 //AccelStepper *steppers[no_of_steppers] = {NULL, NULL, NULL, NULL, NULL, NULL};
