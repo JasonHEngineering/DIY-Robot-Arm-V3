@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Hayley - Digital Twin</title>
+  <link rel="stylesheet" href="./twin.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three/build/three.module.min.js",
+        "three/examples/jsm/": "./vendor/three/examples/jsm/",
+        "three-mesh-bvh": "./vendor/three-mesh-bvh/index.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div id="viewport">
+      <div id="loading">Loading robot model…</div>
+      <div id="banner" hidden></div>
+      <div id="legend">
+        <span><i class="sw live"></i>Live (encoders)</span>
+        <span><i class="sw ghost"></i>Commanded target</span>
+        <span><i class="sw preview"></i>Preview / sandbox</span>
+        <span><i class="sw hit"></i>Collision</span>
+      </div>
+      <div id="viewbtns">
+        <button data-view="iso">Iso</button>
+        <button data-view="front">Front</button>
+        <button data-view="side">Side</button>
+        <button data-view="top">Top</button>
+      </div>
+      <div id="draghint" hidden>Drag any arm link (orange) - the TCP stays locked. Right/middle mouse still orbits/pans.</div>
+    </div>
+
+    <aside id="panel">
+      <header>
+        <div class="title">Project Hayley <span>digital twin</span></div>
+        <div id="pills">
+          <span id="pill-mode" class="pill">–</span>
+          <span id="pill-link" class="pill">–</span>
+          <span id="pill-motor" class="pill">–</span>
+          <span id="pill-ps" class="pill">–</span>
+          <span id="pill-claw" class="pill">–</span>
+          <span id="pill-coll" class="pill">–</span>
+        </div>
+      </header>
+
+      <section>
+        <h3>Joints <small>(deg)</small></h3>
+        <table id="joints">
+          <thead><tr><th>Axis</th><th>Live</th><th>Target</th><th>Δ</th><th class="barcol">Range</th></tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="tcp">TCP live <b id="tcp-live">–</b></div>
+        <div class="tcp">TCP target <b id="tcp-ghost">–</b></div>
+        <div class="acc" title="TCP from encoder-measured joint angles through the linkage FK (link bending is not seen by encoders)">
+          <div class="coll"><span>TCP error live ↔ target</span><b id="acc-lt">–</b></div>
+          <div class="coll"><span>Path deviation now / max</span><b id="acc-dev">–</b></div>
+          <div class="coll"><span>Settled error (last stop)</span><b id="acc-set">–</b></div>
+          <div class="row toggles">
+            <button id="acc-reset" class="small">reset max</button>
+            <label><input type="checkbox" id="show-plan" checked> planned TCP path</label>
+            <span id="acc-run" class="muted"></span>
+          </div>
+        </div>
+        <div class="row toggles">
+          <label><input type="checkbox" id="show-live" checked> live</label>
+          <label><input type="checkbox" id="show-ghost" checked> target ghost</label>
+          <label><input type="checkbox" id="show-trail" checked> TCP trail</label>
+          <button id="clear-trail" class="small">clear trail</button>
+        </div>
+      </section>
+
+      <section>
+        <h3>Collisions <small>(mesh-accurate, self + table)</small></h3>
+        <div class="coll"><span>Live</span><b id="coll-live">–</b></div>
+        <div class="coll"><span>Commanded move</span><b id="coll-move">–</b></div>
+        <div class="coll"><span>Preview</span><b id="coll-preview">–</b></div>
+        <div class="row toggles">
+          <label><input type="checkbox" id="coll-on" checked> check collisions</label>
+          <span id="coll-note" class="muted"></span>
+        </div>
+      </section>
+
+      <section>
+        <h3>Sequence preview <small>(CSV from the IK solver / recording)</small></h3>
+        <div class="row">
+          <input type="file" id="csv" accept=".csv">
+        </div>
+        <div id="seq-info" class="muted">Load a CSV to simulate it before running it on the robot. Timing follows the ESP32 V20 step clock; the whole path is swept for collisions.</div>
+        <div class="row">
+          <button id="play" disabled>▶ Play</button>
+          <button id="restart" disabled>⟲</button>
+          <select id="speed">
+            <option value="1">1×</option><option value="2">2×</option><option value="5" selected>5×</option>
+            <option value="10">10×</option><option value="25">25×</option>
+          </select>
+          <span id="seq-time" class="mono">0:00 / 0:00</span>
+        </div>
+        <div class="scrubwrap"><div id="scrub-marks"></div><input type="range" id="scrub" min="0" max="1000" value="0" disabled></div>
+        <div id="seq-rows"></div>
+      </section>
+
+      <section>
+        <h3>Pose sandbox <small>(moves the preview only - nothing is sent)</small></h3>
+        <div id="sliders"></div>
+        <div class="tcp">TCP preview <b id="tcp-preview">–</b></div>
+        <div class="row">
+          <button id="snap-live" class="small">copy live pose</button>
+          <button id="zero" class="small">zero pose</button>
+          <button id="copy-angles" class="small">copy angles</button>
+          <label><input type="checkbox" id="show-preview"> show preview</label>
+        </div>
+      </section>
+
+      <section>
+        <h3>TCP lock &amp; drag <small>(re-pose the arm, TCP stays put)</small></h3>
+        <div class="row">
+          <button id="lock">🔒 Lock TCP at preview pose</button>
+          <select id="lock-mode">
+            <option value="pos" selected>Position only (3D)</option>
+            <option value="pos_axis">Position + tool direction (5D)</option>
+            <option value="pose">Full pose (6D)</option>
+          </select>
+        </div>
+        <div class="row toggles">
+          <label><input type="checkbox" id="avoid" checked> stop at collisions</label>
+          <label>waypoint every <select id="wp-res"><option>0.5</option><option selected>1</option><option>2</option><option>5</option></select>°</label>
+        </div>
+        <div id="lock-status" class="muted">Pose the preview with the sandbox sliders (or "copy live pose"), then lock.</div>
+        <div class="row">
+          <button id="alts" class="small" disabled>find alternative configurations</button>
+        </div>
+        <div id="alt-list"></div>
+        <div id="path-info" class="muted"></div>
+        <div class="row">
+          <button id="path-preview" class="small" disabled>▶ preview path</button>
+          <button id="path-export" class="small" disabled>⬇ export CSV for robot</button>
+          <button id="path-undo" class="small" disabled>undo drag</button>
+          <button id="path-clear" class="small" disabled>clear path</button>
+        </div>
+      </section>
+
+      <footer class="muted">URDF: description/hayley_v3.urdf · generated from Robot_Assembly.step + linkage table</footer>
+    </aside>
+  </div>
+  <script>
+    // Opened by double-click (file://)? Browsers block modules + model loading there.
+    if (location.protocol === 'file:') {
+      document.getElementById('loading').innerHTML =
+        '<div style="max-width:560px;line-height:1.6;color:#d8dde6">' +
+        '<b>This page must be served over http://, not opened as a file.</b><br>' +
+        'Easiest: double-click <code>run_twin_sim.bat</code> in the Raspberry Pi program folder, ' +
+        'then open <code>http://localhost:8050/twin/</code>.<br>' +
+        'Model-only (no Dash/robot): run <code>python -m http.server 8000</code> inside <code>twin_web</code> ' +
+        'and open <code>http://localhost:8000/</code>.</div>';
+    }
+  </script>
+  <script type="module" src="./twin.js"></script>
+</body>
+</html>

@@ -1,0 +1,3434 @@
+{
+ "base_frame": {
+  "cad_origin_mm": [
+   127.9378216046716,
+   625.929553191282,
+   -63.34082978830597
+  ],
+  "cad_x_axis": [
+   -0.24802653665506758,
+   0.9687532385054991,
+   0.0
+  ]
+ },
+ "meshes": [
+  {
+   "link": "base_link",
+   "category": "drive",
+   "file": "base_link_drive.stl",
+   "parts": 7,
+   "facets": 18504
+  },
+  {
+   "link": "base_link",
+   "category": "hardware",
+   "file": "base_link_hardware.stl",
+   "parts": 16,
+   "facets": 37478
+  },
+  {
+   "link": "base_link",
+   "category": "motor",
+   "file": "base_link_motor.stl",
+   "parts": 6,
+   "facets": 5272
+  },
+  {
+   "link": "base_link",
+   "category": "pcb",
+   "file": "base_link_pcb.stl",
+   "parts": 114,
+   "facets": 78666
+  },
+  {
+   "link": "base_link",
+   "category": "structure",
+   "file": "base_link_structure.stl",
+   "parts": 5,
+   "facets": 15646
+  },
+  {
+   "link": "link1",
+   "category": "drive",
+   "file": "link1_drive.stl",
+   "parts": 4,
+   "facets": 11472
+  },
+  {
+   "link": "link1",
+   "category": "hardware",
+   "file": "link1_hardware.stl",
+   "parts": 19,
+   "facets": 18396
+  },
+  {
+   "link": "link1",
+   "category": "motor",
+   "file": "link1_motor.stl",
+   "parts": 3,
+   "facets": 4000
+  },
+  {
+   "link": "link1",
+   "category": "pcb",
+   "file": "link1_pcb.stl",
+   "parts": 2,
+   "facets": 2254
+  },
+  {
+   "link": "link1",
+   "category": "structure",
+   "file": "link1_structure.stl",
+   "parts": 9,
+   "facets": 21484
+  },
+  {
+   "link": "link2",
+   "category": "hardware",
+   "file": "link2_hardware.stl",
+   "parts": 2,
+   "facets": 792
+  },
+  {
+   "link": "link2",
+   "category": "structure",
+   "file": "link2_structure.stl",
+   "parts": 4,
+   "facets": 11194
+  },
+  {
+   "link": "link3",
+   "category": "drive",
+   "file": "link3_drive.stl",
+   "parts": 4,
+   "facets": 8852
+  },
+  {
+   "link": "link3",
+   "category": "hardware",
+   "file": "link3_hardware.stl",
+   "parts": 23,
+   "facets": 20220
+  },
+  {
+   "link": "link3",
+   "category": "motor",
+   "file": "link3_motor.stl",
+   "parts": 7,
+   "facets": 7078
+  },
+  {
+   "link": "link3",
+   "category": "pcb",
+   "file": "link3_pcb.stl",
+   "parts": 2,
+   "facets": 3168
+  },
+  {
+   "link": "link3",
+   "category": "structure",
+   "file": "link3_structure.stl",
+   "parts": 8,
+   "facets": 17686
+  },
+  {
+   "link": "link4",
+   "category": "drive",
+   "file": "link4_drive.stl",
+   "parts": 1,
+   "facets": 3408
+  },
+  {
+   "link": "link4",
+   "category": "hardware",
+   "file": "link4_hardware.stl",
+   "parts": 3,
+   "facets": 1188
+  },
+  {
+   "link": "link4",
+   "category": "motor",
+   "file": "link4_motor.stl",
+   "parts": 4,
+   "facets": 3078
+  },
+  {
+   "link": "link4",
+   "category": "structure",
+   "file": "link4_structure.stl",
+   "parts": 6,
+   "facets": 17688
+  },
+  {
+   "link": "link5",
+   "category": "drive",
+   "file": "link5_drive.stl",
+   "parts": 2,
+   "facets": 2036
+  },
+  {
+   "link": "link5",
+   "category": "hardware",
+   "file": "link5_hardware.stl",
+   "parts": 24,
+   "facets": 20008
+  },
+  {
+   "link": "link5",
+   "category": "motor",
+   "file": "link5_motor.stl",
+   "parts": 11,
+   "facets": 18432
+  },
+  {
+   "link": "link5",
+   "category": "pcb",
+   "file": "link5_pcb.stl",
+   "parts": 1,
+   "facets": 1584
+  },
+  {
+   "link": "link5",
+   "category": "structure",
+   "file": "link5_structure.stl",
+   "parts": 7,
+   "facets": 15544
+  }
+ ],
+ "parts": [
+  {
+   "label": "Part 1",
+   "link": "base_link",
+   "category": "structure",
+   "volume_mm3": 1380.2,
+   "centroid_mm": [
+    -65.0,
+    -0.0,
+    89.7
+   ]
+  },
+  {
+   "label": "GT2_30T_5_6",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 2427.0,
+   "centroid_mm": [
+    -65.0,
+    -0.0,
+    76.8
+   ]
+  },
+  {
+   "label": "Part 001",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 3707.7,
+   "centroid_mm": [
+    0.0,
+    -56.7,
+    208.3
+   ]
+  },
+  {
+   "label": "Part 002",
+   "link": "link3",
+   "category": "drive",
+   "volume_mm3": 47862.3,
+   "centroid_mm": [
+    -0.2,
+    39.7,
+    208.5
+   ]
+  },
+  {
+   "label": "M3x5mm v1",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 80.9,
+   "centroid_mm": [
+    -72.5,
+    20.7,
+    90.8
+   ]
+  },
+  {
+   "label": "Standoff m/f - M2 x 5 across flats 4mm",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 9.4,
+   "centroid_mm": [
+    134.0,
+    -9.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Standoff m/f - M2 x 5 across flats 4mm001",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 59.7,
+   "centroid_mm": [
+    130.2,
+    -9.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 003",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 3707.7,
+   "centroid_mm": [
+    0.0,
+    -56.7,
+    138.7
+   ]
+  },
+  {
+   "label": "Ball 3 mm_8",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    94.4,
+    -38.1,
+    247.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_1",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    102.9,
+    -38.1,
+    275.7
+   ]
+  },
+  {
+   "label": "Ball 3 mm_7",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    89.8,
+    -38.1,
+    250.8
+   ]
+  },
+  {
+   "label": "Ball 3 mm_12",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    115.0,
+    -38.1,
+    253.4
+   ]
+  },
+  {
+   "label": "Ball 3 mm_10",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    106.0,
+    -38.1,
+    245.9
+   ]
+  },
+  {
+   "label": "Sep 1",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 42.0,
+   "centroid_mm": [
+    101.5,
+    -37.3,
+    260.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_6",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    86.9,
+    -38.1,
+    256.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_13",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    116.7,
+    -38.1,
+    259.1
+   ]
+  },
+  {
+   "label": "Ball 3 mm_9",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    100.1,
+    -38.1,
+    245.3
+   ]
+  },
+  {
+   "label": "Ball 3 mm",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    108.6,
+    -38.1,
+    274.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_5",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    86.3,
+    -38.1,
+    261.9
+   ]
+  },
+  {
+   "label": "Ball 3 mm_14",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    116.1,
+    -38.1,
+    265.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_11",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    111.2,
+    -38.1,
+    248.8
+   ]
+  },
+  {
+   "label": "Sep 2",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 46.6,
+   "centroid_mm": [
+    101.5,
+    -38.8,
+    260.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_4",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    88.0,
+    -38.1,
+    267.6
+   ]
+  },
+  {
+   "label": "Ball 3 mm_15",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    113.2,
+    -38.1,
+    270.2
+   ]
+  },
+  {
+   "label": "Ring 1",
+   "link": "link5",
+   "category": "drive",
+   "volume_mm3": 1476.6,
+   "centroid_mm": [
+    101.5,
+    -38.1,
+    260.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_3",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    91.8,
+    -38.1,
+    272.2
+   ]
+  },
+  {
+   "label": "Ring 2",
+   "link": "link5",
+   "category": "drive",
+   "volume_mm3": 826.2,
+   "centroid_mm": [
+    101.5,
+    -38.1,
+    260.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_2",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    97.0,
+    -38.1,
+    275.1
+   ]
+  },
+  {
+   "label": "Part 004",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 84.5,
+   "centroid_mm": [
+    -65.0,
+    -0.0,
+    84.0
+   ]
+  },
+  {
+   "label": "KFL08 v1",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 5054.2,
+   "centroid_mm": [
+    -65.0,
+    0.0,
+    48.9
+   ]
+  },
+  {
+   "label": "Part 005",
+   "link": "base_link",
+   "category": "structure",
+   "volume_mm3": 10119.3,
+   "centroid_mm": [
+    0.0,
+    40.1,
+    54.5
+   ]
+  },
+  {
+   "label": "Part 006",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 4025.0,
+   "centroid_mm": [
+    -4.6,
+    -0.0,
+    285.2
+   ]
+  },
+  {
+   "label": "Part 007",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 5007.0,
+   "centroid_mm": [
+    0.0,
+    -35.6,
+    208.5
+   ]
+  },
+  {
+   "label": "Part 008",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 84.5,
+   "centroid_mm": [
+    -37.1,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_001",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    7.1,
+    -56.7,
+    195.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_002",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -1.4,
+    -56.7,
+    223.7
+   ]
+  },
+  {
+   "label": "Ball 3 mm_003",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    11.7,
+    -56.7,
+    198.8
+   ]
+  },
+  {
+   "label": "Ball 3 mm_004",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -13.5,
+    -56.7,
+    201.4
+   ]
+  },
+  {
+   "label": "Ball 3 mm_005",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -4.5,
+    -56.7,
+    193.9
+   ]
+  },
+  {
+   "label": "Sep 001",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 42.0,
+   "centroid_mm": [
+    0.0,
+    -57.5,
+    208.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_006",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    14.6,
+    -56.7,
+    204.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_007",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -15.2,
+    -56.7,
+    207.1
+   ]
+  },
+  {
+   "label": "Ball 3 mm_008",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    1.4,
+    -56.7,
+    193.3
+   ]
+  },
+  {
+   "label": "Ball 3 mm001",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -7.1,
+    -56.7,
+    222.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_009",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    15.2,
+    -56.7,
+    209.9
+   ]
+  },
+  {
+   "label": "Ball 3 mm_010",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -14.6,
+    -56.7,
+    213.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_011",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -9.7,
+    -56.7,
+    196.8
+   ]
+  },
+  {
+   "label": "Sep 002",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 46.6,
+   "centroid_mm": [
+    0.0,
+    -56.0,
+    208.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_012",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    13.5,
+    -56.7,
+    215.6
+   ]
+  },
+  {
+   "label": "Ball 3 mm_013",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -11.7,
+    -56.7,
+    218.2
+   ]
+  },
+  {
+   "label": "Ring 001",
+   "link": "link3",
+   "category": "drive",
+   "volume_mm3": 1476.6,
+   "centroid_mm": [
+    0.0,
+    -56.7,
+    208.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_014",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    9.7,
+    -56.7,
+    220.2
+   ]
+  },
+  {
+   "label": "Ring 002",
+   "link": "link3",
+   "category": "drive",
+   "volume_mm3": 826.2,
+   "centroid_mm": [
+    0.0,
+    -56.7,
+    208.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_015",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    4.5,
+    -56.7,
+    223.1
+   ]
+  },
+  {
+   "label": "Part 009",
+   "link": "base_link",
+   "category": "structure",
+   "volume_mm3": 104501.4,
+   "centroid_mm": [
+    -39.7,
+    1.2,
+    -4.3
+   ]
+  },
+  {
+   "label": "Standoff mf - M3 x 20 across flats 5.5mm",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 452.9,
+   "centroid_mm": [
+    -120.0,
+    63.8,
+    71.0
+   ]
+  },
+  {
+   "label": "Standoff mf - M3 x 20 across flats 5.5mm001",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 56.5,
+   "centroid_mm": [
+    -120.0,
+    50.6,
+    71.0
+   ]
+  },
+  {
+   "label": "Part 010",
+   "link": "link4",
+   "category": "structure",
+   "volume_mm3": 13074.7,
+   "centroid_mm": [
+    81.8,
+    50.9,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 012",
+   "link": "link4",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    58.4,
+    -26.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 013",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 3256.1,
+   "centroid_mm": [
+    0.0,
+    60.0,
+    138.5
+   ]
+  },
+  {
+   "label": "Part 014",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    30.4,
+    -0.0,
+    220.5
+   ]
+  },
+  {
+   "label": "Part 015",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    30.4,
+    -29.0,
+    208.5
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 432.2,
+   "centroid_mm": [
+    -86.5,
+    17.5,
+    43.9
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA001",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 215.2,
+   "centroid_mm": [
+    -22.5,
+    -38.6,
+    55.5
+   ]
+  },
+  {
+   "label": "Part 016",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 10016.5,
+   "centroid_mm": [
+    10.6,
+    56.8,
+    208.6
+   ]
+  },
+  {
+   "label": "Part 017",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 84.5,
+   "centroid_mm": [
+    0.0,
+    -42.2,
+    208.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v2",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 11530.1,
+   "centroid_mm": [
+    -25.5,
+    -0.0,
+    260.2
+   ]
+  },
+  {
+   "label": "Nema17_pancake v001",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 842.8,
+   "centroid_mm": [
+    -5.3,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v002",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 14073.4,
+   "centroid_mm": [
+    -8.8,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v003",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 14672.8,
+   "centroid_mm": [
+    -17.5,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 018",
+   "link": "link2",
+   "category": "structure",
+   "volume_mm3": 27821.3,
+   "centroid_mm": [
+    0.0,
+    -68.9,
+    173.5
+   ]
+  },
+  {
+   "label": "Standoff m/f - M3 x 30 across flats 5mm",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 578.6,
+   "centroid_mm": [
+    -72.5,
+    20.7,
+    72.3
+   ]
+  },
+  {
+   "label": "Standoff m/f - M3 x 30 across flats 5mm001",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 56.5,
+   "centroid_mm": [
+    -72.5,
+    20.7,
+    54.5
+   ]
+  },
+  {
+   "label": "Part 019",
+   "link": "link2",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    0.0,
+    -71.4,
+    191.5
+   ]
+  },
+  {
+   "label": "Part 020",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 8367.6,
+   "centroid_mm": [
+    12.6,
+    -56.3,
+    208.6
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA002",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 432.2,
+   "centroid_mm": [
+    -28.5,
+    -31.5,
+    43.9
+   ]
+  },
+  {
+   "label": "17HS6401 v9",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 495.8,
+   "centroid_mm": [
+    0.0,
+    38.3,
+    208.4
+   ]
+  },
+  {
+   "label": "17HS6401 v001",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 10705.0,
+   "centroid_mm": [
+    0.0,
+    21.5,
+    208.5
+   ]
+  },
+  {
+   "label": "17HS6401 v002",
+   "link": "link3",
+   "category": "motor",
+   "volume_mm3": 102017.7,
+   "centroid_mm": [
+    0.0,
+    -4.2,
+    208.5
+   ]
+  },
+  {
+   "label": "Part 021",
+   "link": "link4",
+   "category": "structure",
+   "volume_mm3": 9164.7,
+   "centroid_mm": [
+    37.6,
+    0.0,
+    261.9
+   ]
+  },
+  {
+   "label": "Part 022",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 8367.6,
+   "centroid_mm": [
+    0.1,
+    -56.3,
+    125.9
+   ]
+  },
+  {
+   "label": "Part 023",
+   "link": "link2",
+   "category": "structure",
+   "volume_mm3": 1899.4,
+   "centroid_mm": [
+    0.0,
+    -62.7,
+    208.5
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA003",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 215.2,
+   "centroid_mm": [
+    -80.5,
+    -38.6,
+    55.5
+   ]
+  },
+  {
+   "label": "Part 024",
+   "link": "link4",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    70.5,
+    -53.4,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 025",
+   "link": "link1",
+   "category": "drive",
+   "volume_mm3": 47862.3,
+   "centroid_mm": [
+    0.2,
+    39.7,
+    138.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v004",
+   "link": "base_link",
+   "category": "motor",
+   "volume_mm3": 11530.1,
+   "centroid_mm": [
+    -0.3,
+    0.0,
+    3.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v005",
+   "link": "base_link",
+   "category": "motor",
+   "volume_mm3": 842.8,
+   "centroid_mm": [
+    0.0,
+    0.0,
+    23.7
+   ]
+  },
+  {
+   "label": "Nema17_pancake v006",
+   "link": "base_link",
+   "category": "motor",
+   "volume_mm3": 14073.4,
+   "centroid_mm": [
+    -0.0,
+    0.0,
+    20.2
+   ]
+  },
+  {
+   "label": "Nema17_pancake v007",
+   "link": "base_link",
+   "category": "motor",
+   "volume_mm3": 14672.8,
+   "centroid_mm": [
+    -0.0,
+    0.0,
+    11.5
+   ]
+  },
+  {
+   "label": "Standoff m/f - M2 x 5 across flats 4mm002",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 9.4,
+   "centroid_mm": [
+    134.0,
+    9.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Standoff m/f - M2 x 5 across flats 4mm003",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 59.7,
+   "centroid_mm": [
+    130.2,
+    9.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 026",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 17043.1,
+   "centroid_mm": [
+    105.5,
+    -39.4,
+    260.5
+   ]
+  },
+  {
+   "label": "GT2_30T_5_001",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 2427.0,
+   "centroid_mm": [
+    -32.5,
+    -0.0,
+    76.7
+   ]
+  },
+  {
+   "label": "Part 027",
+   "link": "link4",
+   "category": "structure",
+   "volume_mm3": 5007.0,
+   "centroid_mm": [
+    101.5,
+    -17.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 028",
+   "link": "link3",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    30.4,
+    -20.0,
+    208.5
+   ]
+  },
+  {
+   "label": "Part 029",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 24871.2,
+   "centroid_mm": [
+    0.0,
+    9.4,
+    112.1
+   ]
+  },
+  {
+   "label": "Part 030",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 37886.2,
+   "centroid_mm": [
+    26.5,
+    5.1,
+    218.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56549",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 223.2,
+   "centroid_mm": [
+    -68.7,
+    -12.1,
+    30.3
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56554",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -68.9,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56560",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -76.6,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56562",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2224.5,
+   "centroid_mm": [
+    -101.8,
+    -26.0,
+    40.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56563",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -91.5,
+    -26.0,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56567",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 20.5,
+   "centroid_mm": [
+    -35.6,
+    19.4,
+    33.8
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56570",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 14.0,
+   "centroid_mm": [
+    -35.4,
+    -20.0,
+    30.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56575",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 369.0,
+   "centroid_mm": [
+    -100.4,
+    10.7,
+    41.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56581",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -81.6,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56583",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 30.5,
+   "centroid_mm": [
+    -43.6,
+    16.8,
+    33.7
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56590",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.6,
+   "centroid_mm": [
+    -111.9,
+    5.5,
+    34.9
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56594",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 121.4,
+   "centroid_mm": [
+    -86.5,
+    -7.0,
+    33.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56596",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -48.6,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56598",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 3.6,
+   "centroid_mm": [
+    -74.5,
+    6.2,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56609",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -48.6,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56616",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -71.5,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56617",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 6928.0,
+   "centroid_mm": [
+    -67.8,
+    -6.9,
+    31.7
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56618",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -46.1,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56619",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -38.5,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56620",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -79.1,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56621",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -33.4,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56624",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -85.2,
+    -24.1,
+    35.0
+   ]
+  },
+  {
+   "label": "40-Pin Header - Female - Double - 2.54mm",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 1911.0,
+   "centroid_mm": [
+    -57.5,
+    -31.5,
+    39.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56632",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -56.2,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56635",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -61.3,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56641",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -87.8,
+    -26.6,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56643",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 241.7,
+   "centroid_mm": [
+    -51.7,
+    -10.6,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56646",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -35.9,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56648",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -79.1,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56650",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 40.8,
+   "centroid_mm": [
+    -32.8,
+    -7.6,
+    30.6
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56654",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -41.0,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56656",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -93.1,
+    -0.7,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56661",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -74.0,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56666",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 423.8,
+   "centroid_mm": [
+    -57.0,
+    14.2,
+    35.3
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56667",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -53.7,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56672",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 70.0,
+   "centroid_mm": [
+    -29.5,
+    -7.0,
+    34.9
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56676",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 3.1,
+   "centroid_mm": [
+    -32.1,
+    12.0,
+    30.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56680",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -47.3,
+    1.5,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56681",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 53.2,
+   "centroid_mm": [
+    -86.5,
+    -25.4,
+    33.6
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56682",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -41.0,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56684",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 33.5,
+   "centroid_mm": [
+    -28.5,
+    -31.5,
+    31.7
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56690",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 110.8,
+   "centroid_mm": [
+    -28.6,
+    -7.0,
+    35.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56693",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -81.6,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56700",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 173.4,
+   "centroid_mm": [
+    -57.0,
+    17.0,
+    36.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56710",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 8.3,
+   "centroid_mm": [
+    -33.5,
+    9.0,
+    33.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56716",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -56.2,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56718",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 3.6,
+   "centroid_mm": [
+    -40.1,
+    9.5,
+    30.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56719",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -85.2,
+    13.3,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56720",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 27.6,
+   "centroid_mm": [
+    -38.0,
+    5.8,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56723",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -71.5,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56724",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 6.1,
+   "centroid_mm": [
+    -50.1,
+    8.4,
+    33.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56726",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 33.5,
+   "centroid_mm": [
+    -28.5,
+    17.5,
+    31.7
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56733",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 3.6,
+   "centroid_mm": [
+    -81.7,
+    3.7,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56738",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 15.4,
+   "centroid_mm": [
+    -32.2,
+    -6.9,
+    29.6
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56742",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.0,
+   "centroid_mm": [
+    -28.6,
+    12.0,
+    30.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56745",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -83.9,
+    9.8,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56746",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 8.3,
+   "centroid_mm": [
+    -42.6,
+    2.3,
+    33.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56750",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -46.1,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56751",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -58.8,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56758",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -66.4,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56760",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -51.2,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56761",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -53.7,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56766",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 33.5,
+   "centroid_mm": [
+    -86.5,
+    17.5,
+    31.7
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56769",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -58.8,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56771",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -35.9,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56774",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.0,
+   "centroid_mm": [
+    -35.4,
+    -12.0,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56775",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -63.9,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56776",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 321.3,
+   "centroid_mm": [
+    -101.8,
+    -8.0,
+    41.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56779",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -40.5,
+    17.0,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56786",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 25.7,
+   "centroid_mm": [
+    -35.6,
+    18.0,
+    33.8
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56789",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -51.2,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56796",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 264.3,
+   "centroid_mm": [
+    -78.5,
+    15.1,
+    34.8
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56798",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -61.3,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56799",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -33.4,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56802",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -43.5,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56803",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -68.9,
+    -32.8,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56807",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -87.8,
+    -24.1,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56809",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -45.2,
+    1.5,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56810",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 3.6,
+   "centroid_mm": [
+    -35.8,
+    12.2,
+    30.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56812",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 70.0,
+   "centroid_mm": [
+    -69.2,
+    9.5,
+    34.9
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56814",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 75.7,
+   "centroid_mm": [
+    -70.8,
+    9.5,
+    34.9
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56818",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -63.9,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56819",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 321.3,
+   "centroid_mm": [
+    -101.8,
+    -26.0,
+    41.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56822",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -75.3,
+    -15.0,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56827",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -66.4,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56833",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -76.6,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56834",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -85.2,
+    -26.6,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56841",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 408.0,
+   "centroid_mm": [
+    -57.5,
+    -31.5,
+    33.8
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56843",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2224.5,
+   "centroid_mm": [
+    -101.8,
+    -8.0,
+    40.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56846",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 110.8,
+   "centroid_mm": [
+    -70.1,
+    9.5,
+    35.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56847",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 75.7,
+   "centroid_mm": [
+    -28.0,
+    -7.0,
+    34.9
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56851",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.6,
+   "centroid_mm": [
+    -111.9,
+    16.0,
+    34.9
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56852",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -41.4,
+    12.1,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56854",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 304.6,
+   "centroid_mm": [
+    -36.8,
+    -21.8,
+    33.6
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56858",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -31.0,
+    10.0,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56863",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -43.5,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56864",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -38.5,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56867",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 4.6,
+   "centroid_mm": [
+    -74.0,
+    -30.2,
+    35.0
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56869",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2934.2,
+   "centroid_mm": [
+    -99.6,
+    10.7,
+    39.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56870",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 33.5,
+   "centroid_mm": [
+    -86.5,
+    -31.5,
+    31.7
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56871",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 8.3,
+   "centroid_mm": [
+    -33.5,
+    2.3,
+    33.2
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56874",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 163.3,
+   "centroid_mm": [
+    -51.7,
+    -10.6,
+    34.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56875",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 2.7,
+   "centroid_mm": [
+    -90.8,
+    -17.4,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56877",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 5.4,
+   "centroid_mm": [
+    -79.9,
+    -24.9,
+    33.1
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56878",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 6.9,
+   "centroid_mm": [
+    -30.5,
+    12.0,
+    30.5
+   ]
+  },
+  {
+   "label": "RASPBERRY PI 3 MODEL B---3DModel-STEP-56879",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 8.3,
+   "centroid_mm": [
+    -42.6,
+    9.0,
+    33.2
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA004",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 432.2,
+   "centroid_mm": [
+    -28.5,
+    17.5,
+    43.9
+   ]
+  },
+  {
+   "label": "Part 031",
+   "link": "base_link",
+   "category": "structure",
+   "volume_mm3": 42127.3,
+   "centroid_mm": [
+    -28.5,
+    -1.5,
+    55.5
+   ]
+  },
+  {
+   "label": "Part 032",
+   "link": "link4",
+   "category": "structure",
+   "volume_mm3": 9902.3,
+   "centroid_mm": [
+    63.0,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "GT2_30T_5_002",
+   "link": "link1",
+   "category": "drive",
+   "volume_mm3": 1752.5,
+   "centroid_mm": [
+    -0.1,
+    -0.0,
+    76.8
+   ]
+  },
+  {
+   "label": "Part 033",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 3256.1,
+   "centroid_mm": [
+    0.0,
+    60.0,
+    208.5
+   ]
+  },
+  {
+   "label": "Part 034",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 3256.1,
+   "centroid_mm": [
+    101.5,
+    43.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Standoff mf - M3 x 20 across flats 5.5mm002",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 452.9,
+   "centroid_mm": [
+    11.0,
+    63.8,
+    71.0
+   ]
+  },
+  {
+   "label": "Standoff mf - M3 x 20 across flats 5.5mm003",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 56.5,
+   "centroid_mm": [
+    11.0,
+    50.6,
+    71.0
+   ]
+  },
+  {
+   "label": "17HS6401 v003",
+   "link": "link1",
+   "category": "motor",
+   "volume_mm3": 495.8,
+   "centroid_mm": [
+    0.0,
+    38.3,
+    138.4
+   ]
+  },
+  {
+   "label": "17HS6401 v004",
+   "link": "link1",
+   "category": "motor",
+   "volume_mm3": 10705.0,
+   "centroid_mm": [
+    0.0,
+    21.5,
+    138.5
+   ]
+  },
+  {
+   "label": "17HS6401 v005",
+   "link": "link1",
+   "category": "motor",
+   "volume_mm3": 102017.7,
+   "centroid_mm": [
+    0.0,
+    -4.2,
+    138.5
+   ]
+  },
+  {
+   "label": "Part 035",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 84.5,
+   "centroid_mm": [
+    130.0,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "shaft8x80mm",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 1256.6,
+   "centroid_mm": [
+    -32.5,
+    -0.0,
+    71.0
+   ]
+  },
+  {
+   "label": "Part 036",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 9940.4,
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    69.4
+   ]
+  },
+  {
+   "label": "Part 037",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 30877.6,
+   "centroid_mm": [
+    136.5,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 038",
+   "link": "link5",
+   "category": "hardware",
+   "volume_mm3": 84.5,
+   "centroid_mm": [
+    101.5,
+    -23.6,
+    260.5
+   ]
+  },
+  {
+   "label": "Rotary_Encoder_AS5048A_V4 PCB",
+   "link": "link1",
+   "category": "pcb",
+   "volume_mm3": 1203.4,
+   "centroid_mm": [
+    7.0,
+    -37.9,
+    138.6
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA005",
+   "link": "link1",
+   "category": "pcb",
+   "volume_mm3": 215.2,
+   "centroid_mm": [
+    35.5,
+    -38.6,
+    55.5
+   ]
+  },
+  {
+   "label": "KFL08 v001",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 5054.2,
+   "centroid_mm": [
+    -65.0,
+    -0.0,
+    62.1
+   ]
+  },
+  {
+   "label": "shaft8x80mm001",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 2010.6,
+   "centroid_mm": [
+    -65.0,
+    -0.0,
+    62.5
+   ]
+  },
+  {
+   "label": "Part 039",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 5910.0,
+   "centroid_mm": [
+    0.0,
+    -0.0,
+    60.0
+   ]
+  },
+  {
+   "label": "17HS13-0404S",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 16350.3,
+   "centroid_mm": [
+    157.8,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "17HS13-0404S001",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 762.1,
+   "centroid_mm": [
+    145.5,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "17HS13-0404S002",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 216.2,
+   "centroid_mm": [
+    154.9,
+    15.5,
+    245.0
+   ]
+  },
+  {
+   "label": "17HS13-0404S003",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 12539.9,
+   "centroid_mm": [
+    170.6,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "17HS13-0404S004",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 762.1,
+   "centroid_mm": [
+    172.6,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "17HS13-0404S005",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 216.2,
+   "centroid_mm": [
+    154.9,
+    -15.5,
+    245.0
+   ]
+  },
+  {
+   "label": "17HS13-0404S006",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 13016.4,
+   "centroid_mm": [
+    144.8,
+    -0.3,
+    260.5
+   ]
+  },
+  {
+   "label": "17HS13-0404S007",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 1210.4,
+   "centroid_mm": [
+    162.9,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "17HS13-0404S008",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 216.2,
+   "centroid_mm": [
+    154.9,
+    15.5,
+    276.0
+   ]
+  },
+  {
+   "label": "17HS13-0404S009",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 178.0,
+   "centroid_mm": [
+    145.5,
+    21.4,
+    260.4
+   ]
+  },
+  {
+   "label": "17HS13-0404S010",
+   "link": "link5",
+   "category": "motor",
+   "volume_mm3": 216.2,
+   "centroid_mm": [
+    154.9,
+    -15.5,
+    276.0
+   ]
+  },
+  {
+   "label": "Rotary_Encoder_AS5048A_V4 PCB001",
+   "link": "link3",
+   "category": "pcb",
+   "volume_mm3": 1203.4,
+   "centroid_mm": [
+    -0.1,
+    -37.9,
+    215.5
+   ]
+  },
+  {
+   "label": "Part 040",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 84.5,
+   "centroid_mm": [
+    0.0,
+    -42.2,
+    138.5
+   ]
+  },
+  {
+   "label": "Part 041",
+   "link": "link3",
+   "category": "drive",
+   "volume_mm3": 47862.3,
+   "centroid_mm": [
+    9.2,
+    0.2,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 042",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 10016.5,
+   "centroid_mm": [
+    0.1,
+    56.8,
+    127.9
+   ]
+  },
+  {
+   "label": "Part 043",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 1899.4,
+   "centroid_mm": [
+    101.5,
+    -44.1,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 044",
+   "link": "base_link",
+   "category": "drive",
+   "volume_mm3": 47862.3,
+   "centroid_mm": [
+    -0.2,
+    0.0,
+    38.2
+   ]
+  },
+  {
+   "label": "Ball 3 mm_016",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    7.1,
+    -56.7,
+    125.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_017",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -1.4,
+    -56.7,
+    153.7
+   ]
+  },
+  {
+   "label": "Ball 3 mm_018",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    11.7,
+    -56.7,
+    128.8
+   ]
+  },
+  {
+   "label": "Ball 3 mm_019",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -13.5,
+    -56.7,
+    131.4
+   ]
+  },
+  {
+   "label": "Ball 3 mm_020",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -4.5,
+    -56.7,
+    123.9
+   ]
+  },
+  {
+   "label": "Sep 003",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 42.0,
+   "centroid_mm": [
+    0.0,
+    -57.5,
+    138.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_021",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    14.6,
+    -56.7,
+    134.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_022",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -15.2,
+    -56.7,
+    137.1
+   ]
+  },
+  {
+   "label": "Ball 3 mm_023",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    1.4,
+    -56.7,
+    123.3
+   ]
+  },
+  {
+   "label": "Ball 3 mm002",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -7.1,
+    -56.7,
+    152.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_024",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    15.2,
+    -56.7,
+    139.9
+   ]
+  },
+  {
+   "label": "Ball 3 mm_025",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -14.6,
+    -56.7,
+    143.0
+   ]
+  },
+  {
+   "label": "Ball 3 mm_026",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -9.7,
+    -56.7,
+    126.8
+   ]
+  },
+  {
+   "label": "Sep 004",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 46.6,
+   "centroid_mm": [
+    0.0,
+    -56.0,
+    138.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_027",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    13.5,
+    -56.7,
+    145.6
+   ]
+  },
+  {
+   "label": "Ball 3 mm_028",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    -11.7,
+    -56.7,
+    148.2
+   ]
+  },
+  {
+   "label": "Ring 003",
+   "link": "link1",
+   "category": "drive",
+   "volume_mm3": 1476.6,
+   "centroid_mm": [
+    0.0,
+    -56.7,
+    138.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_029",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    9.7,
+    -56.7,
+    150.2
+   ]
+  },
+  {
+   "label": "Ring 004",
+   "link": "link1",
+   "category": "drive",
+   "volume_mm3": 826.2,
+   "centroid_mm": [
+    0.0,
+    -56.7,
+    138.5
+   ]
+  },
+  {
+   "label": "Ball 3 mm_030",
+   "link": "link1",
+   "category": "hardware",
+   "volume_mm3": 14.1,
+   "centroid_mm": [
+    4.5,
+    -56.7,
+    153.1
+   ]
+  },
+  {
+   "label": "Part 045",
+   "link": "link4",
+   "category": "drive",
+   "volume_mm3": 47862.3,
+   "centroid_mm": [
+    101.7,
+    22.7,
+    260.5
+   ]
+  },
+  {
+   "label": "Rotary_Encoder_AS5048A_V4 PCB002",
+   "link": "link5",
+   "category": "pcb",
+   "volume_mm3": 1203.4,
+   "centroid_mm": [
+    126.7,
+    0.1,
+    253.5
+   ]
+  },
+  {
+   "label": "M2.5_MF_TORRETTA006",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 432.2,
+   "centroid_mm": [
+    -86.5,
+    -31.5,
+    43.9
+   ]
+  },
+  {
+   "label": "Rotary_Encoder_AS5048A_V4 PCB003",
+   "link": "link3",
+   "category": "pcb",
+   "volume_mm3": 1203.4,
+   "centroid_mm": [
+    -32.8,
+    -7.0,
+    260.6
+   ]
+  },
+  {
+   "label": "Part 046",
+   "link": "link2",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    0.0,
+    -71.4,
+    155.5
+   ]
+  },
+  {
+   "label": "Part 047",
+   "link": "link4",
+   "category": "structure",
+   "volume_mm3": 24600.0,
+   "centroid_mm": [
+    56.7,
+    5.5,
+    260.5
+   ]
+  },
+  {
+   "label": "6020Fan",
+   "link": "base_link",
+   "category": "motor",
+   "volume_mm3": 17668.2,
+   "centroid_mm": [
+    -64.0,
+    0.0,
+    8.6
+   ]
+  },
+  {
+   "label": "6020Fan001",
+   "link": "base_link",
+   "category": "motor",
+   "volume_mm3": 13135.1,
+   "centroid_mm": [
+    -64.0,
+    -0.0,
+    11.4
+   ]
+  },
+  {
+   "label": "Part 048",
+   "link": "link3",
+   "category": "structure",
+   "volume_mm3": 5007.0,
+   "centroid_mm": [
+    -30.5,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 049",
+   "link": "link2",
+   "category": "structure",
+   "volume_mm3": 33985.5,
+   "centroid_mm": [
+    -0.0,
+    68.6,
+    173.5
+   ]
+  },
+  {
+   "label": "Part 050",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 156.1,
+   "centroid_mm": [
+    -65.0,
+    -0.0,
+    84.2
+   ]
+  },
+  {
+   "label": "Part 051",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 16917.7,
+   "centroid_mm": [
+    -1.7,
+    0.0,
+    92.5
+   ]
+  },
+  {
+   "label": "Part 053",
+   "link": "link2",
+   "category": "structure",
+   "volume_mm3": 1899.4,
+   "centroid_mm": [
+    0.0,
+    -62.7,
+    138.5
+   ]
+  },
+  {
+   "label": "Part 054",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 333.5,
+   "centroid_mm": [
+    133.7,
+    -0.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 055",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 18711.4,
+   "centroid_mm": [
+    105.1,
+    39.7,
+    260.5
+   ]
+  },
+  {
+   "label": "Standoff m/f - M3 x 30 across flats 5mm002",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 578.6,
+   "centroid_mm": [
+    -57.5,
+    -20.7,
+    72.3
+   ]
+  },
+  {
+   "label": "Standoff m/f - M3 x 30 across flats 5mm003",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 56.5,
+   "centroid_mm": [
+    -57.5,
+    -20.7,
+    54.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v008",
+   "link": "link4",
+   "category": "motor",
+   "volume_mm3": 11530.1,
+   "centroid_mm": [
+    101.2,
+    -12.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v009",
+   "link": "link4",
+   "category": "motor",
+   "volume_mm3": 842.8,
+   "centroid_mm": [
+    101.5,
+    8.2,
+    260.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v010",
+   "link": "link4",
+   "category": "motor",
+   "volume_mm3": 14073.4,
+   "centroid_mm": [
+    101.5,
+    4.7,
+    260.5
+   ]
+  },
+  {
+   "label": "Nema17_pancake v011",
+   "link": "link4",
+   "category": "motor",
+   "volume_mm3": 14672.8,
+   "centroid_mm": [
+    101.5,
+    -4.0,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 056",
+   "link": "link4",
+   "category": "structure",
+   "volume_mm3": 8249.2,
+   "centroid_mm": [
+    85.2,
+    -50.8,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 057",
+   "link": "link1",
+   "category": "structure",
+   "volume_mm3": 5007.0,
+   "centroid_mm": [
+    0.0,
+    -35.6,
+    138.5
+   ]
+  },
+  {
+   "label": "stepper_with_DRV8825_controller_board_V4_7 PCB",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 32225.0,
+   "centroid_mm": [
+    -62.8,
+    56.8,
+    48.0
+   ]
+  },
+  {
+   "label": "M3 x 35mm + 6mm Male Female v0",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 208.7,
+   "centroid_mm": [
+    11.0,
+    49.6,
+    -5.0
+   ]
+  },
+  {
+   "label": "M3 x 35mm + 6mm Male Female v001",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 208.7,
+   "centroid_mm": [
+    -52.0,
+    49.6,
+    -5.0
+   ]
+  },
+  {
+   "label": "M3 x 35mm + 6mm Male Female v002",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 208.7,
+   "centroid_mm": [
+    -120.0,
+    49.6,
+    71.0
+   ]
+  },
+  {
+   "label": "M3 x 35mm + 6mm Male Female v003",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 208.7,
+   "centroid_mm": [
+    -120.0,
+    49.6,
+    -5.0
+   ]
+  },
+  {
+   "label": "Part 058",
+   "link": "base_link",
+   "category": "structure",
+   "volume_mm3": 84292.6,
+   "centroid_mm": [
+    -54.6,
+    42.8,
+    32.7
+   ]
+  },
+  {
+   "label": "M3 x 35mm + 6mm Male Female v004",
+   "link": "base_link",
+   "category": "hardware",
+   "volume_mm3": 208.7,
+   "centroid_mm": [
+    11.0,
+    49.6,
+    71.0
+   ]
+  },
+  {
+   "label": "Part 059",
+   "link": "link4",
+   "category": "hardware",
+   "volume_mm3": 151.5,
+   "centroid_mm": [
+    86.5,
+    -53.4,
+    260.5
+   ]
+  },
+  {
+   "label": "Part 060",
+   "link": "link5",
+   "category": "structure",
+   "volume_mm3": 3707.7,
+   "centroid_mm": [
+    101.7,
+    -38.1,
+    260.5
+   ]
+  },
+  {
+   "label": "Rotary_Encoder_AS5048A_V4 PCB004",
+   "link": "base_link",
+   "category": "pcb",
+   "volume_mm3": 1203.4,
+   "centroid_mm": [
+    -58.4,
+    2.5,
+    87.7
+   ]
+  }
+ ]
+}

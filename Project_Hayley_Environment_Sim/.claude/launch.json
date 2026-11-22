@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hayley-sim",
+      "runtimeExecutable": "C:/Users/jashu/AppData/Local/hayley_twin_venv/Scripts/python.exe",
+      "runtimeArgs": ["-c", "import os,runpy; os.environ['HAYLEY_SIM']='1'; d=r'C:/Users/jashu/OneDrive/Documents/Claude/Project_Hayley_Environment_Sim/Python program loaded on Raspberry Pi 4'; os.chdir(d); import sys; sys.path.insert(0,d); runpy.run_path('Project_Hayley_V5_IK_user_interface_V09.py', run_name='__main__')"],
+      "port": 8050
+    }
+  ]
+}

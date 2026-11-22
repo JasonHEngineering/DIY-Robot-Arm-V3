@@ -1,0 +1,54 @@
+/* Responsive layer for the Project Hayley Dash UI (V09)
+   Dash loads every .css in assets/ alphabetically, after the Bootstrap theme, so this
+   file (after main.css) wins ties. Classes hayley-* / pp-* are set in V09's layout.   */
+
+/* 1. Two grid systems are loaded: Skeleton (main.css: .row / .N.columns) and Bootstrap
+      (dbc theme: .row = flex with negative side margins, .row > * padding). The negative
+      margins made every page ~8 px (desktop) to ~100 px (phone) wider than the window.  */
+.row { margin-left: 0; margin-right: 0; }
+.row > * { padding-left: 0; padding-right: 0; }
+
+/* page breathing room instead of content glued to the window edge */
+#react-entry-point { padding: 8px clamp(10px, 2.5vw, 32px) 24px; box-sizing: border-box; overflow-x: hidden; }
+
+/* 2. Header: logo + tab bar that wraps instead of squeezing labels onto two lines */
+.hayley-header { align-items: center; }
+.hayley-logo { flex: 0 0 auto; width: auto !important; }
+.hayley-logo img { height: 88px; width: auto; }
+.hayley-nav { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 6px 0 12px; }
+.hayley-nav label {
+  display: inline-flex; align-items: center; gap: 6px; margin: 0;
+  white-space: nowrap; cursor: pointer; font-size: 15px; line-height: 1.2;
+  padding: 6px 12px; border: 1px solid #cfd5dc; border-radius: 18px; background: #f7f9fb;
+}
+.hayley-nav label:hover { border-color: #8fa3b8; }
+.hayley-nav label:has(input:checked) { background: #1f6feb; border-color: #1f6feb; color: #fff; }
+.hayley-nav input[type=radio] { margin: 0; }
+
+/* 3. Buttons and controls */
+.hayley-btnbar { display: flex; flex-wrap: wrap; gap: 10px; }
+.hayley-btnbar > .hayley-btn { width: auto !important; flex: 0 0 auto; margin: 0; }
+#IK_target_ID { min-width: 160px; }
+
+/* 4. Tables scroll inside their box, never push the page sideways */
+.dash-table-container { max-width: 100%; }
+.hayley-content .dash-spreadsheet-container { max-width: 100%; overflow-x: auto; }
+
+/* 5. Digital Twin tab: keep the embedded twin usable on short windows */
+.hayley-content iframe { min-height: 520px; }
+
+/* 6. Path Plan: controls beside the table only when there is room for both */
+@media (max-width: 1100px) {
+  .pp-controls, .pp-table { width: 100% !important; margin-left: 0 !important; float: none; }
+  .pp-controls { margin-bottom: 12px; }
+}
+@media (max-width: 900px) {
+  .pp-upload { width: 100% !important; }
+}
+
+/* 7. Narrow windows / phones: every grid column becomes full width and stacks */
+@media (max-width: 760px) {
+  .column, .columns { width: 100% !important; margin-left: 0 !important; float: none; }
+  .hayley-logo img { height: 72px; }
+  .hayley-nav label { font-size: 14px; padding: 5px 10px; }
+}

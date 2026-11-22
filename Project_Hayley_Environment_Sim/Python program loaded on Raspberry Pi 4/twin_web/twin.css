@@ -1,0 +1,78 @@
+:root {
+  --bg: #12151a; --panel: #1a1e25; --line: #2a303a; --text: #d8dde6; --muted: #8a93a3;
+  --live: #c9d3e0; --ghost: #36c5f0; --preview: #ff9a3c; --ok: #3ccf7a; --warn: #f2c14e; --bad: #ff5a5f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  font: 13px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+#app { display: flex; height: 100vh; }
+#viewport { flex: 1; position: relative; min-width: 0; }
+#viewport canvas { display: block; }
+#loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 15px; pointer-events: none; }
+#legend { position: absolute; left: 12px; bottom: 12px; display: flex; gap: 14px; background: #0009; padding: 6px 10px; border-radius: 6px; }
+#legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.sw.live { background: var(--live); } .sw.ghost { background: var(--ghost); } .sw.preview { background: var(--preview); }
+#viewbtns { position: absolute; right: 12px; top: 12px; display: flex; gap: 4px; }
+
+#panel { width: 400px; max-width: 46vw; background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding: 10px 14px 20px; }
+header .title { font-size: 16px; font-weight: 600; } header .title span { color: var(--muted); font-weight: 400; }
+#pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+.pill { padding: 2px 8px; border-radius: 10px; background: #2a303a; color: var(--muted); font-size: 11px; }
+.pill.ok { background: #1d3b2a; color: var(--ok); } .pill.warn { background: #3b3320; color: var(--warn); }
+.pill.bad { background: #3d1f22; color: var(--bad); } .pill.info { background: #1b3240; color: var(--ghost); }
+section { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 10px; }
+h3 { margin: 0 0 6px; font-size: 13px; } h3 small { color: var(--muted); font-weight: 400; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { padding: 3px 4px; text-align: right; } th { color: var(--muted); font-weight: 500; font-size: 11px; }
+td:first-child, th:first-child { text-align: left; }
+td.live { color: var(--live); } td.ghost { color: var(--ghost); }
+td.err.warn { color: var(--warn); } td.err.bad { color: var(--bad); }
+.barcol { width: 110px; }
+.bar { position: relative; height: 8px; background: #2a303a; border-radius: 4px; }
+.bar i { position: absolute; top: -2px; width: 3px; height: 12px; border-radius: 1px; }
+.bar i.l { background: var(--live); } .bar i.g { background: var(--ghost); }
+tr.limit td:first-child { color: var(--bad); }
+.tcp { color: var(--muted); margin-top: 4px; } .tcp b { color: var(--text); font-weight: 500; font-variant-numeric: tabular-nums; }
+.row { display: flex; align-items: center; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
+.toggles label { color: var(--muted); }
+button, select { background: #2a303a; color: var(--text); border: 1px solid #3a414d; border-radius: 5px; padding: 4px 10px; cursor: pointer; font: inherit; }
+button:hover:not(:disabled) { background: #343b47; } button:disabled { opacity: .45; cursor: default; }
+button.small { padding: 2px 8px; font-size: 12px; }
+input[type=range] { width: 100%; accent-color: var(--preview); }
+.muted { color: var(--muted); } .mono { font-variant-numeric: tabular-nums; color: var(--muted); }
+#seq-rows { max-height: 180px; overflow-y: auto; margin-top: 6px; font-variant-numeric: tabular-nums; font-size: 12px; }
+#seq-rows div { padding: 1px 4px; border-radius: 3px; cursor: pointer; white-space: nowrap; }
+#seq-rows div:hover { background: #262b34; } #seq-rows div.cur { background: #3a2a18; color: var(--preview); }
+#seq-rows div.skip { color: var(--bad); text-decoration: line-through; }
+.slider { display: grid; grid-template-columns: 28px 1fr 56px; align-items: center; gap: 8px; }
+.slider span:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+footer { margin-top: 16px; font-size: 11px; }
+@media (max-width: 800px) { #app { flex-direction: column; } #viewport { height: 55vh; flex: none; } #panel { width: 100%; max-width: none; } }
+
+/* --- collisions / TCP lock (V2) --- */
+:root { --hit: #ff3b3b; }
+.sw.hit { background: var(--hit); }
+#banner { position: absolute; left: 12px; right: 12px; top: 12px; margin-right: 210px; padding: 8px 12px; border-radius: 6px;
+  background: #4a1418ee; color: #ffd6d6; border: 1px solid var(--hit); font-weight: 500; }
+#draghint { position: absolute; left: 50%; transform: translateX(-50%); bottom: 44px; background: #3a2a18e8; color: var(--preview);
+  padding: 5px 10px; border-radius: 6px; font-size: 12px; }
+.coll { display: flex; justify-content: space-between; gap: 10px; padding: 1px 0; }
+.coll span { color: var(--muted); } .coll b { font-weight: 500; text-align: right; }
+.coll b.ok { color: var(--ok); } .coll b.bad { color: var(--hit); } .coll b.warn { color: var(--warn); }
+.pill.hit { background: #4a1418; color: #ff8a8a; }
+.scrubwrap { position: relative; }
+#scrub-marks { position: absolute; left: 7px; right: 7px; top: 0; height: 4px; pointer-events: none; }
+#scrub-marks i { position: absolute; top: 0; width: 3px; height: 4px; background: var(--hit); }
+#seq-rows div.hitrow { color: var(--hit); }
+#alt-list button { margin: 2px 4px 2px 0; }
+#alt-list button.hitalt { border-color: var(--hit); color: #ff8a8a; }
+#lock.on { background: #3a2a18; border-color: var(--preview); color: var(--preview); }
+.slider input:disabled { opacity: .4; }
+
+/* --- TCP accuracy + typed sandbox angles --- */
+.acc { margin-top: 6px; padding-top: 4px; border-top: 1px dashed var(--line); }
+.slider { grid-template-columns: 28px 1fr 78px !important; }
+.slider input[type=number] { width: 74px; background: #12151a; color: var(--text); border: 1px solid #3a414d;
+  border-radius: 4px; padding: 2px 4px; font: inherit; font-variant-numeric: tabular-nums; text-align: right; }
+.slider input[type=number]:focus { outline: 1px solid var(--preview); }
+.slider input[type=number].bad { outline: 1px solid var(--bad); }

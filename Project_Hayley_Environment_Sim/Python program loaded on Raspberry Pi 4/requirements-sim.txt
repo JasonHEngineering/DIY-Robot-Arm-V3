@@ -1,0 +1,9 @@
+# Packages needed to run the Dash UI + digital twin on a PC in simulation mode (HAYLEY_SIM=1).
+# On the Raspberry Pi also install smbus2.
+dash
+dash-bootstrap-components
+dash-extensions
+plotly
+pandas
+numpy
+scikit-spatial
